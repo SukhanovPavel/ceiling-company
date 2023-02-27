@@ -1,0 +1,7 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  margin: 0;
+  padding: 0;
+}

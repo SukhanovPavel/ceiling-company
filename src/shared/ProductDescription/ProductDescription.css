@@ -1,0 +1,20 @@
+.product {
+    width: 100vw;
+    height: 60vh;
+    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dataText {
+    width: 70%;
+}
+
+.productImage {
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    z-index: -1;
+}
