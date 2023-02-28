@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+button {
+  transition: 450ms;
+  cursor: pointer;
+  height: 2rem;
+  border-radius: 2rem;
+  color: whitesmoke;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+svg {
+  height: 30px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

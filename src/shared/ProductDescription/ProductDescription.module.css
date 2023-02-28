@@ -1,0 +1,45 @@
+.product {
+    width: 100vw;
+    height: auto;
+    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dataText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.productImage {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44px;
+    z-index: -1;
+}
+
+.title {
+    line-height: 2rem;
+    text-align: center;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.p {
+    width: 80%;
+    text-align: justify;
+}
