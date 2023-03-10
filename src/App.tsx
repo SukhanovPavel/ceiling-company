@@ -1,4 +1,4 @@
-import React from "react";
+import {useState} from "react";
 import { PageHeader } from "./shared/PageHeader/PageHeader";
 import { DynamicHeader } from "./shared/DynamicHeader/DynamicHeader"
 import { BackgroundImage } from "./shared/BackgroundImage/BackgroundImage";
@@ -74,11 +74,18 @@ export const dataHome = [
                                  439.8 350 480 432 480z"/></svg>
     },
 ]
-export const App = () => (
-    <>
-        <PageHeader />
-        <DynamicHeader data={dataHome}/>
-        <Calculator />
-        <BackgroundImage alt={"Glavnaya"} src={"https://www.luxe-potolok.ru/o/primer/v-studiyu-2.jpg"} />
-    </>
-);
+export const App = () => {
+
+
+    const [modal, openModal] = useState(false);
+    const [calc, openCalc] = useState(false);
+
+    return (
+        <>
+            <PageHeader openCalc={() => openCalc(true)}/>
+            <DynamicHeader modal={modal} openModal={() => openModal(true)} data={dataHome}/>
+            {calc ? <Calculator handleСloseCalc={() => openCalc(false)}/> : null}
+            <BackgroundImage alt="Glavnaya" src="https://www.luxe-potolok.ru/o/primer/v-studiyu-2.jpg" />
+        </>
+    );
+}

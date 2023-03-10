@@ -6,11 +6,14 @@
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:import/recommended",
         "airbnb",
         "airbnb-typescript",
         "plugin:react-redux/recommended",
         "prettier",
-        "plugin:react-hooks/recommended"
+        "plugin:react/jsx-runtime"
     ],
     "overrides": [
     ],
@@ -27,6 +30,7 @@
         "react-hooks"
     ],
     "rules": {
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
         "react-redux/connect-prefer-named-arguments": 2,
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",

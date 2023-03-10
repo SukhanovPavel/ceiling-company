@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import {addClient} from "./slices/addClientsSlice";
+import {setPrice} from "./slices/calculatorSlice";
 
 const store = configureStore({
     reducer: {
-        clients: addClient
+        calc: setPrice
     }
 });
 export default store;

@@ -1,9 +1,10 @@
+import React, {useState} from "react";
 import { PageHeader } from "../PageHeader/PageHeader";
 import { DynamicHeader } from "../DynamicHeader/DynamicHeader";
-import { BackgroundImage } from "../BackgroundImage/BackgroundImage";
+// import { BackgroundImage } from "../BackgroundImage/BackgroundImage";
 
-import styles from "./ProductDescription.module.css"
-import React from "react";
+import styles from "./ProductDescription.module.css";
+import {Calculator} from "../../components/Calculator/Calculator";
 
 type Props = {
     title: string;
@@ -29,10 +30,14 @@ export const ProductDescription = ({
    priority
 }: Props) => {
 
+    const [modal, openModal] = useState(false);
+    const [calc, openCalc] = useState(false);
+
     return (
         <>
-            <PageHeader />
-            <DynamicHeader data={data} />
+            <PageHeader openCalc={() => openCalc(true)} />
+            <DynamicHeader modal={modal} openModal={() => openModal(true)} data={data} />
+            {calc ? <Calculator handleСloseCalc={() => openCalc(false)}/> : null}
             <div className={styles.product}>
                 <h1>{title}</h1>
                 <p className={styles.p}>{description}</p>

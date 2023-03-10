@@ -1,13 +1,12 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {Provider} from "react-redux";
-import {App} from './App';
-import store from "./store";
 import {
-    createBrowserRouter, 
+    createBrowserRouter,
     RouterProvider,
     RouterProviderProps
 } from "react-router-dom";
+import {App, dataHome} from './App';
+import store from "./store";
 import {
     Accessories,
     Contacts,
@@ -18,7 +17,6 @@ import {
 } from "./pages";
 import {productDescription} from "./assets/productDescription/productDescription";
 import {ProductDescription} from "./shared/ProductDescription/ProductDescription";
-import {dataHome} from "./App";
 import {dataCeiling} from "./pages/ceilings/Ceilings";
 
 import "./index.css";

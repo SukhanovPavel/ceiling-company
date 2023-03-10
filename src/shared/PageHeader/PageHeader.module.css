@@ -34,9 +34,20 @@
     position: fixed;
     right: 3rem;
     bottom: 3rem;
-    fill: lightgray;
     background: goldenrod;
     border-radius: 50px;
+}
+
+.calcButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    background: goldenrod;
 }
 
 .svg {
