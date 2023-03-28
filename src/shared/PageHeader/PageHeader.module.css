@@ -1,0 +1,212 @@
+._ {
+    position: relative;
+    z-index: 2;
+}
+
+.links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 44px;
+    background: rgba(0,0,0,0.8);
+    align-items: center;
+}
+
+.link {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.logo {
+    height: 70px;
+    position: fixed;
+    left: 5rem;
+    top: 4rem;
+}
+
+.phoneNumber {
+    color: lightgray;
+    position: fixed;
+    right: 2rem;
+}
+
+.phoneButton {
+    display: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    background: none;
+    border-radius: 3rem;
+    fill: rgb(var(--foreground-rgb));
+}
+
+.calcButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    background: none;
+    fill: rgb(var(--foreground-rgb));
+}
+
+.svg {
+    height: 3rem;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1180px) {
+    .links {
+        gap: 1.5rem;
+    }
+    .logo {
+        height: 2rem;
+        position: fixed;
+        filter: invert(1);
+        left: 1rem;
+        top: 0.3rem;
+    }
+    .phoneButton {
+        display: flex;
+        position: fixed;
+        background: goldenrod;
+        right: 1rem;
+        top: 0.3rem;
+        width: 2rem;
+    }
+    .phoneIcon {
+        fill: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    ._ {
+        gap: 1.2rem;
+        font-size: 0.8rem;
+    }
+    .logo {
+        height: 2rem;
+        position: fixed;
+        filter: invert(1);
+        left: 1rem;
+        top: 0.3rem;
+    }
+    .phoneButton {
+        display: flex;
+        position: fixed;
+        background: goldenrod;
+        right: 1rem;
+        top: 0.3rem;
+        width: 2rem;
+    }
+    .phoneNumber {
+        display: none;
+    }
+    .phoneIcon {
+        fill: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .linksNone {
+        display: none;
+    }
+    .links {
+        gap: 1rem;
+        font-size: 0.8rem;
+        /*display: flex;*/
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 0;
+        position: fixed;
+        bottom: 4rem;
+        top: auto;
+        left: 0;
+        right: 0;
+    }
+    .logo {
+        height: 3rem;
+        position: fixed;
+        filter: none;
+        left: 1rem;
+        top: 0.3rem;
+    }
+    .phoneButton {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        background: none;
+        /*border: none;*/
+        right: 1rem;
+        top: 0.3rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    .phoneIcon {
+        fill: whitesmoke;
+    }
+    .footerMenu {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 4rem;
+        background: rgba(0,0,0,0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .burger {
+        background: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        width: 4rem;
+        height: 2rem;
+        fill: whitesmoke;
+    }
+    .calcButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        position: fixed;
+        left: 3rem;
+        bottom: 10rem;
+        background: none;
+        border: none;
+        fill: whitesmoke;
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4rem;
+        height: 4rem;
+        position: fixed;
+        right: 3rem;
+        bottom: 10rem;
+        background: none;
+        border: none;
+        fill: whitesmoke;
+    }
+}
