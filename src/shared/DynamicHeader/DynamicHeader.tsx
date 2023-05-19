@@ -6,7 +6,7 @@ type Props = {
   data: {
     link: string;
     description: string;
-    icon?: { ReactNode };
+    icon?: { ReactNode } ;
   }[];
   modal: boolean;
   openModal: () => void;

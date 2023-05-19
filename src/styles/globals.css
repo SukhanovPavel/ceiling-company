@@ -71,6 +71,12 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
+  button {
+    background: goldenrod;
+  }
+  #logoMain {
+    filter: invert();
+  }
 }
 
 * {
@@ -86,9 +92,10 @@ body {
 }
 
 body {
-  font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-  'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;;
+  /*font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',*/
+  /*'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',*/
+  /*'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;;*/
+  font-family: sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -106,19 +113,24 @@ a {
 input {
   height: 2.5rem;
   border-radius: 1rem;
+  border: none;
 }
 
 button {
-  padding: 0 0.5rem;
+  border: none;
+  padding: 0 1rem;
   transition: 450ms;
   cursor: pointer;
-  height: 2rem;
-  border-radius: 2rem;
-  color: whitesmoke;
+  height: 2.5rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+  /*background: #d57787;*/
+  background: indianred;
 }
 
 button:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 svg {

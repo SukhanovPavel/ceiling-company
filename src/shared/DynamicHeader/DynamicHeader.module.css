@@ -37,7 +37,7 @@
 .navButton {
     position: absolute;
     right: 5rem;
-    background: goldenrod;
+    /*background: goldenrod;*/
 }
 
 .div {
@@ -77,8 +77,11 @@
 }
 
 @media screen and (max-width: 980px) {
+    /*.nav {*/
+    /*    overflow-x: auto;*/
+    /*}*/
     .nav {
-        overflow-x: auto;
+        display: none;
     }
     .navButton {
         display: none;
@@ -86,20 +89,20 @@
 }
 
 @media screen and (max-width: 390px) {
-    .nav {
-        z-index: 1;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 8rem;
-        background: rgba(245,245,247,.6);
-        display: flex;
-        align-items: flex-end;
-    }
-    .navLinks {
-        padding-left: 5rem;
-        padding-right: 5rem;
-        padding-bottom: 1rem;
-    }
+    /*.nav {*/
+    /*    z-index: 1;*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    height: 8rem;*/
+    /*    background: rgba(245,245,247,.6);*/
+    /*    display: flex;*/
+    /*    align-items: flex-end;*/
+    /*}*/
+    /*.navLinks {*/
+    /*    padding-left: 5rem;*/
+    /*    padding-right: 5rem;*/
+    /*    padding-bottom: 1rem;*/
+    /*}*/
 }
