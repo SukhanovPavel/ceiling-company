@@ -12,7 +12,7 @@ type Props = {
     servicesMap: {
         title: string;
         img: string;
-        description?: string;
+        description: {text: string; num: string}[];
         price?: string;
         link: string;
     }[];
@@ -37,11 +37,10 @@ export const WorkPrice = ({servicesMap, titleH1, allServicesButton}: Props) => {
                 <div key={Slide.title} className={styles.service}>
                     <img className={styles.img} src={Slide.img}/>
                     <h3>{Slide.title}</h3>
-                    {Slide.description ?
-                        <div className={styles.desc}>
-                            {Slide.description}
-                        </div> : null
-                    }
+                    <div className={styles.desc}>
+                            {Slide.description.map(item =>
+                              (<div key={item.text}> <span>{item.text}</span><span>{item.num}</span></div>))}
+                    </div>
                     {Slide.price ?
                         <div>
                             Цена: {Slide.price} руб.
@@ -52,11 +51,10 @@ export const WorkPrice = ({servicesMap, titleH1, allServicesButton}: Props) => {
                 <div key={SlideTwo.title} className={styles.service}>
                     <img className={styles.img} src={SlideTwo.img}/>
                     <h3>{SlideTwo.title}</h3>
-                    {SlideTwo.description ?
-                        <div className={styles.desc}>
-                            {SlideTwo.description}
-                        </div> : null
-                    }
+                    <div className={styles.desc}>
+                        {Slide.description.map(item =>
+                          (<div key={item.text}> <span>{item.text}</span><span>{item.num}</span></div>))}
+                    </div>
                     {SlideTwo.price ?
                         <div>
                             Цена: {SlideTwo.price} руб.
@@ -67,11 +65,10 @@ export const WorkPrice = ({servicesMap, titleH1, allServicesButton}: Props) => {
                 <div className={styles.service}>
                     <img className={styles.img} src={SlideThree.img}/>
                     <h3>{SlideThree.title}</h3>
-                    {SlideThree.description ?
-                        <div className={styles.desc}>
-                            {SlideThree.description}
-                        </div> : null
-                    }
+                    <div className={styles.desc}>
+                        {Slide.description.map(item =>
+                          (<div key={item.text}> <span>{item.text}</span><span>{item.num}</span></div>))}
+                    </div>
                     {SlideThree.price ?
                         <div>
                             Цена: {SlideThree.price} руб.

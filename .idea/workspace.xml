@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/CeilingSet/CeilingSet.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/CeilingSet/CeilingSet.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.linters.configure.manually.selectedeslint": "true",
-    "last_opened_file_path": "/Users/pavelsuhanov/dev/ceiling-company/public",
+    "last_opened_file_path": "/Users/pavelsuhanov/dev/ceiling-company",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -81,6 +85,7 @@
       <workItem from="1678430915367" duration="1623000" />
       <workItem from="1679058408648" duration="722000" />
       <workItem from="1679060443817" duration="39546000" />
+      <workItem from="1684480456936" duration="4640000" />
     </task>
     <servers />
   </component>

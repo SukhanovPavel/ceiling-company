@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    border-bottom: solid silver;
+    /*border-bottom: solid silver;*/
 }
 
 .flex {
@@ -89,6 +89,16 @@
 }
 .price {
     display: flex;
+}
+
+@media (prefers-color-scheme: dark) {
+    .set, .shadow {
+        background: gray;
+        color: black;
+    }
+    .sets h3 {
+        color: black;
+    }
 }
 
 @media screen and (max-width: 1050px) {
