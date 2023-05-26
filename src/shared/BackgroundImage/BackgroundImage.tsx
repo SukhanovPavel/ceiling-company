@@ -1,4 +1,4 @@
-import styles from "./BackgroundImage.module.css";
+import { YMaps, Map } from "@pbe/react-yandex-maps";
 import Image from "next/image";
 import Link from "next/link";
 import {Form} from "@/shared/Form/Form";
@@ -6,6 +6,9 @@ import Ceilings from "@/pages/ceilings";
 import {CeilingSets} from "@/shared/CeilingSet/CeilingSet";
 import {WorkPrice} from "@/shared/WorkPrice/WorkPrice";
 import { WorksPrice } from "@/assets/mocks/worksPrice";
+
+import styles from "./BackgroundImage.module.css";
+import { Contacts } from "@/shared/Contacts/Contacts";
 
 const servicesMap = WorksPrice;
 
@@ -95,5 +98,8 @@ export const BackgroundImage = ({
                 src={src}
             />
         </div>
+
+        <Contacts handleClick={() => {}} />
+
     </div>
 )

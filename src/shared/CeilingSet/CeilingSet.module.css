@@ -14,10 +14,9 @@
     justify-content: center;
     align-items: center;
 }
-
 .set {
     width: 25%;
-    height: auto;
+    height: 35rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -28,6 +27,11 @@
     -moz-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
     box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
 }
+/*.img {*/
+/*    position: relative;*/
+/*    width: 80%;*/
+/*    height: 50%;*/
+/*}*/
 .set h3 {
     color: indianred;
     text-align: center;

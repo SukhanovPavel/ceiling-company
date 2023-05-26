@@ -30,7 +30,12 @@ export const CeilingSets = ({handleClick}: Props) => (
         <div className={styles.sets}>
             <div className={styles.set}>
                 <h3>Мансардный потолок</h3>
-                <Image src={mansard} width="100%" height="200" alt="lightLine"/>
+                    <Image
+                      src={mansard}
+                      // fill
+                      width="100%"
+                      height="200"
+                    />
                 <div className={styles.list}>
                     <div className={styles.p}>Полотно BAUF</div>
                     <div className={styles.p}>Мотаж профиля в уровень мансарды</div>
