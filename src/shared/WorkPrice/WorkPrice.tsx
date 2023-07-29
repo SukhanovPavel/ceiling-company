@@ -17,7 +17,7 @@ type Props = {
         link: string;
     }[];
     titleH2?: string;
-    allServicesButton: boolean;
+    allServicesButton?: boolean;
 };
 export const WorkPrice = ({servicesMap, titleH1, allServicesButton}: Props) => {
 
