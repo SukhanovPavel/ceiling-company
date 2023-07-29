@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./ProductPage.module.css";
 
 type Props = {
-  image: string;
+  imgPath: string;
   title: string;
   description: string;
   priority?: {title: string; list: string[];}
@@ -11,13 +11,13 @@ type Props = {
 
 
 
-export const ProductPage: React.FC = ({image, priority, description, title}: Props) => {
+export const ProductPage: React.FC = ({imgPath, priority, description, title}: Props) => {
   return (
     <div className={styles._}>
       <div  className={styles.item}>
         <img
           className={styles.img}
-          src={image}
+          src={imgPath}
           alt="vysota"
         />
         <div className={styles.desc}>
