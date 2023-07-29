@@ -434,7 +434,7 @@ export const description = {
         " ламелей вдоль карниза и возможности их поворота до 1800.",
       priority: {
         title: "",
-        // list: [""]
+        list: [""]
       },
       image: "/blinds/vertical.png"
     },
