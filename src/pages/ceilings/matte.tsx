@@ -27,7 +27,7 @@ const MAP = [
 const Matte = () => (
     <>
       <Layout data={dataCeilings.links}/>
-      <ProductPage productData={MAP}/>
+      <ProductPage productData={description.ceiling.matte}/>
     </>
 )
 
