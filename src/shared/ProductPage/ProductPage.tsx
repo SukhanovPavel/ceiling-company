@@ -3,26 +3,21 @@ import Image from "next/image";
 
 import styles from "./ProductPage.module.css";
 
-// interface Props {
-//   imgPath: string;
-//   title: string;
-//   description: string;
-//   priority: {
-//     title: string;
-//     list: string[];
-//   };
-// }
-
-
-
+interface Props {
+  imgPath: string;
+  title: string;
+  description: string;
+  priority: {
+    title: string;
+    list: string[];
+  };
+}
 
 export const ProductPage: React.FC = ({imgPath, title, description, priority}) => {
   return (
     <div className={styles._}>
       <div  className={styles.item}>
-        <Image
-          width={300}
-          height={300}
+        <img
           className={styles.img}
           src={imgPath}
           alt="vysota"

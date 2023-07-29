@@ -18,7 +18,7 @@ const Horizontal = () => {
     <div>
       <Layout data={dataBlind.links}/>
       <ProductPage
-        imgPath={imgPath}
+        imgPath={"/horiz.jpeg"}
         title={description.blinds.horizontal.title}
         description={description.blinds.horizontal.description}
         priority={description.blinds.horizontal.priority}
