@@ -6,7 +6,7 @@ import { PageBody } from "@/shared/PageBody/PageBody";
 const Actions = () => (
     <>
       <Layout data={dataHome}/>
-      <PageBody data={description.home.promotions}/>
+      {/*<PageBody data={description.home.promotions}/>*/}
     </>
 )
 
