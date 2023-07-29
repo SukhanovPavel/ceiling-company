@@ -1,12 +1,7 @@
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
 import {dataHome} from "@/assets/mocks/homePageData";
 import {Layout} from "@/shared/Layout/Layout";
 import {BackgroundImage} from "@/shared/BackgroundImage/BackgroundImage";
-
-const inter = Inter({ subsets: ['latin'] })
-
-
 
 const Home = () => (
     <>
