@@ -1,5 +1,4 @@
 import styles from "./Index.module.css";
-import Image from "next/image";
 
 type Props = {
     title: string;
