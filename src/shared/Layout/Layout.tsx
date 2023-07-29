@@ -19,7 +19,7 @@ export const Layout = ({data, title}: Props) => {
 
     return (
         <>
-            <PageHeader openCalc={() => openCalc(true)} />
+            <PageHeader />
             <DynamicHeader data={data} title={title} modal={modal} openModal={() => openModal(true)} />
             {calc ? <Calculator handleСloseCalc={() => openCalc(false)}/> : null}
         </>
