@@ -1,30 +1,37 @@
 import React from "react";
+import Image from "next/image";
 
 import styles from "./ProductPage.module.css";
 
-type Props = {
+interface Props {
   imgPath: string;
   title: string;
   description: string;
-  priority?: {title: string; list: string[];}
+  priority: {
+    title: string;
+    list: string[];
+  };
 }
 
 
 
-export const ProductPage: React.FC = ({imgPath, priority, description, title}: Props) => {
+
+export const ProductPage: React.FC = (props: Props) => {
   return (
     <div className={styles._}>
       <div  className={styles.item}>
-        <img
+        <Image
+          width={300}
+          height={300}
           className={styles.img}
-          src={imgPath}
+          src={props.imgPath}
           alt="vysota"
         />
         <div className={styles.desc}>
-          <p><b>{title}</b> <br />{description}</p>
-          <h4>{priority?.title}</h4>
+          <p><b>{props.title}</b> <br />{props.description}</p>
+          <h4>{props.priority?.title}</h4>
           <ul>
-            {priority?.list?.map((item, index) =>
+            {props.priority?.list?.map((item, index) =>
               (<li key={index}>{item}</li>))}
           </ul>
         </div>
