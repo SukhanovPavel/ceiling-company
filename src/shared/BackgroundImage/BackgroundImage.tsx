@@ -38,7 +38,7 @@ export const BackgroundImage = ({
 
         {/*<CeilingSets handleClick={() => {}} />*/}
 
-        <WorkPrice servicesMap={servicesMap} titleH1="Примеры стоимости натяжных потолков “под ключ”:" />
+        <WorkPrice servicesMap={servicesMap} titleH2="Примеры стоимости натяжных потолков “под ключ”:" />
 
         <PageBody data={dataCeilings.data} />
 
