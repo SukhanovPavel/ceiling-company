@@ -7,7 +7,7 @@ type Props = {
   data?: {
     link: string;
     description: string;
-    icon?: { ReactNode } | string | JSX.Element;
+    icon?: string | JSX.Element;
   }[];
   title?: string;
 }
