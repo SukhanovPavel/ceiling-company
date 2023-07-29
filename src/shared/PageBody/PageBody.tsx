@@ -4,18 +4,18 @@ import styles from "./PageBody.module.css";
 
 type Props = {
   data: {
-    link?: string;
+    link: string;
     img: string;
     title: string;
     description: string;
   }[]
 }
-export const PageBody: React.FC = ({data}: Props) => {
+export const PageBody = ({data}: Props) => {
   return (
     <div className={styles._}>
       {
         data.map(item =>
-        <Link key={item.title} href={item.link || ""} className={styles.item}>
+        <Link key={item.title} href={item.link} className={styles.item}>
           <img
             className={styles.img}
             src={item.img}
