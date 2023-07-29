@@ -7,7 +7,7 @@ interface Props {
   description: string;
   priority: {
     title: string;
-    list: string[];
+    list?: string[];
   };
 }
 
