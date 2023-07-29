@@ -6,25 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/horizontal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/horizontal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/plisse.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/plisse.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rimsky.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/rimsky.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rulonny.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/rulonny.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/vertical.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/vertical.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/zebra.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/zebra.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/cloth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/cloth.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/lightLine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/lightLine.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/matte.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/matte.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/photoPrint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/photoPrint.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/soaring.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/soaring.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/twoLevel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/twoLevel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/art.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/art.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/evo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/evo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/lamination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/lamination.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite60.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/lite60.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite70.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/lite70.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/smart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/smart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/accessories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/accessories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forDillers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forDillers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +88,7 @@
       <workItem from="1684480456936" duration="5026000" />
       <workItem from="1684735070216" duration="8124000" />
       <workItem from="1685131365734" duration="65000" />
-      <workItem from="1690310137492" duration="42207000" />
+      <workItem from="1690310137492" duration="43390000" />
     </task>
     <servers />
   </component>

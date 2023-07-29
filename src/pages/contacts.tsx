@@ -1,6 +1,4 @@
-import {PageHeader} from "../shared/PageHeader/PageHeader";
-import {BackgroundImage} from "../shared/BackgroundImage/BackgroundImage";
-import {DynamicHeader} from "../shared/DynamicHeader/DynamicHeader";
+import { Layout } from "@/shared/Layout/Layout";
 
 const data = [
     {
@@ -43,12 +41,7 @@ const data = [
 
 const Contacts = () => (
     <>
-        <PageHeader />
-        <DynamicHeader data={data} />
-        <BackgroundImage
-            alt={"Contacts"}
-            src={"https://russia.greekreporter.com/wp-content/uploads/sites/3/2018/01/images_moscow-vkontakte-biggest-russian-social-media.jpg"}
-        />
+        <Layout data={data}/>
     </>
 )
 
