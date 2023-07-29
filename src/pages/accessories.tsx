@@ -1,6 +1,7 @@
 import {PageHeader} from "../shared/PageHeader/PageHeader";
 import {DynamicHeader} from "../shared/DynamicHeader/DynamicHeader";
 import {BackgroundImage} from "../shared/BackgroundImage/BackgroundImage";
+import { Layout } from "@/shared/Layout/Layout";
 
 const data = [
     {
@@ -11,8 +12,7 @@ const data = [
 
 const Accessories = () => (
     <>
-        <PageHeader />
-        <DynamicHeader data={data} />
+        <Layout />
         <BackgroundImage alt={"product"} src={"https://rkktop.ru/upload/iblock/bee/DSC_0231.JPG"} />
     </>
 )
