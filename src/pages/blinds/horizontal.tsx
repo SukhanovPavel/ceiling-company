@@ -11,12 +11,14 @@ const data = {
   list: description.blinds.horizontal.priority.list
 }
 
+const imgPath = description.blinds.horizontal.image
+
 const Horizontal = () => {
   return (
     <div>
       <Layout data={dataBlind.links}/>
       <ProductPage
-        imgPath={description.blinds.horizontal.image}
+        imgPath={imgPath}
         title={description.blinds.horizontal.title}
         description={description.blinds.horizontal.description}
         priority={description.blinds.horizontal.priority}
