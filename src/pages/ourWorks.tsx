@@ -7,7 +7,7 @@ import { WorkPrice } from "@/shared/WorkPrice/WorkPrice";
 const OurWorks = () => (
     <>
       <Layout data={dataHome}/>
-      <WorkPrice servicesMap={WorksPrice}  titleH1={description.home.ourWorks.title}/>
+      <WorkPrice servicesMap={WorksPrice}  titleH1={description.home.ourWorks.title.toString()}/>
     </>
 )
 
