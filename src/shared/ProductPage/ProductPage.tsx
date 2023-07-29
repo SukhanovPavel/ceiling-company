@@ -3,13 +3,14 @@ import React from "react";
 import styles from "./ProductPage.module.css";
 
 type Props = {
-  productData: {
-      image: string;
-      title: string;
-      description: string;
-      priority?: {title: string; list: string[];}
-    }
+  image: string;
+  title: string;
+  description: string;
+  priority?: {title: string; list: string[];}
 }
+
+
+
 export const ProductPage: React.FC = ({productData}: Props) => {
   return (
     <div className={styles._}>

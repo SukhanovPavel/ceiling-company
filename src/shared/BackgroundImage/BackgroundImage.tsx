@@ -7,6 +7,7 @@ import { Contacts } from "@/shared/Contacts/Contacts";
 import { PageBody } from "@/shared/PageBody/PageBody";
 import { dataCeilings } from "@/assets/mocks/ceilingsPageData";
 import { DescriptionList } from "@/shared/DescriptionList/DescriptionList";
+import { Form } from "@/shared/Form/Form";
 
 const servicesMap = WorksPrice;
 
@@ -32,7 +33,7 @@ export const BackgroundImage = ({
                 <h2>ДЕЛАЕМ НАТЯЖНЫЕ ПОТОЛКИ</h2>
                 <p>ЧИСТЫМИ РУКАМИ С ЧИСТОЙ СОВЕСТЬЮ</p>
             </div>
-            {/*<Form handleCloseModal={()=>{}} notFocus    />*/}
+            <Form handleCloseModal={()=>{}} notFocus    />
         </div>
 
         {/*<CeilingSets handleClick={() => {}} />*/}
