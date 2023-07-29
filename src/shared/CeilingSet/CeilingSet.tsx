@@ -32,6 +32,7 @@ export const CeilingSets = ({handleClick}: Props) => (
                 <h3>Мансардный потолок</h3>
                     <Image
                       src={mansard}
+                      alt="vysota"
                       // fill
                       width="200"
                       height="200"
