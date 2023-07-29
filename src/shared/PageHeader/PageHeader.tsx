@@ -28,7 +28,7 @@ export const PageHeader = ({openCalc}: Props) => {
                 <Link href="/" className={styles.link}>Главная</Link>
                 <Link href="/ceilings" className={styles.link}>Потолки</Link>
                 <Link href="/windows" className={styles.link}>Окна</Link>
-                <Link href="/windowBlind" className={styles.link}>Жалюзи</Link>
+                <Link href="/blinds" className={styles.link}>Жалюзи</Link>
                 <Link href="/forDillers" className={styles.link}>Диллерам</Link>
                 <Link href="/accessories" className={styles.link}>Комплектующие</Link>
                 <Link href="/contacts" className={styles.link}>Контакты</Link>

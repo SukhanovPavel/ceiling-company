@@ -75,6 +75,13 @@
     border-radius: 1rem;
 }
 
+.ceilingsPage {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
 @media screen and (max-width: 980px) {
     ._ {
         padding: 1rem;

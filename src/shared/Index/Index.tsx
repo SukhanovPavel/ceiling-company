@@ -4,7 +4,7 @@ import Image from "next/image";
 type Props = {
     title: string;
     description: string;
-    image: string;
+    // image: string;
     priority?:
         {
             title: string;
@@ -15,7 +15,7 @@ type Props = {
 export const Index = ({
    title,
    description,
-   image,
+   // image,
    priority
 }: Props) => (
     <>
@@ -29,6 +29,6 @@ export const Index = ({
                 </ul>
             </div>
         </div>
-        <img alt={title} src={image} className={styles.productImage}/>
+        {/*<img alt={title} src={image} className={styles.productImage}/>*/}
     </>
 )

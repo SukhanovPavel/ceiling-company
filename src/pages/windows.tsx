@@ -1,6 +1,7 @@
-import {PageHeader} from "../shared/PageHeader/PageHeader";
-import {DynamicHeader} from "../shared/DynamicHeader/DynamicHeader";
-import {BackgroundImage} from "../shared/BackgroundImage/BackgroundImage";
+import { Layout } from "@/shared/Layout/Layout";
+import { PageBody } from "@/shared/PageBody/PageBody";
+import { dataWindows } from "@/assets/mocks/windowsPageData";
+import { description } from "@/assets/mocks/description";
 
 const data = [
     {
@@ -39,9 +40,8 @@ const data = [
 
 const Windows = () => (
     <>
-        <PageHeader />
-        <DynamicHeader data={data} />
-        <BackgroundImage alt={"windows"} src={"https://st3.stpulscen.ru/images/product/410/005/753_big.jpg"} />
+        <Layout data={dataWindows.links}/>
+        <PageBody data={dataWindows.data}/>
     </>
 );
 

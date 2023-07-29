@@ -9,7 +9,7 @@
     justify-content: space-around;
     gap: 0.5rem;
     font-weight: 300;
-    /*background: rgba(245,245,247,.3);*/
+    background: rgba(245,245,247,.3);
 }
 
 .dataText {

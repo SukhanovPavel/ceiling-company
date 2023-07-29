@@ -1,6 +1,10 @@
 import {PageHeader} from "../shared/PageHeader/PageHeader";
 import {DynamicHeader} from "../shared/DynamicHeader/DynamicHeader";
 import {BackgroundImage} from "../shared/BackgroundImage/BackgroundImage";
+import { Layout } from "@/shared/Layout/Layout";
+import { dataCeilings } from "@/assets/mocks/ceilingsPageData";
+import { PageBody } from "@/shared/PageBody/PageBody";
+import { dataBlind } from "@/assets/mocks/blindPageData";
 
 const data = [
     {
@@ -29,15 +33,11 @@ const data = [
     }
 ]
 
-const WindowBlind = () => (
+const Blinds = () => (
     <>
-        <PageHeader />
-        <DynamicHeader data={data} />
-        <BackgroundImage
-            alt={"blind"}
-            src={"https://www.tuk33.ru/assets/images/resources/63/8fa592b741b3bffd7a326b008f61.jpg"}
-        />
+        <Layout data={dataBlind.links} />
+        <PageBody data={dataBlind.data}/>
     </>
 )
 
-export default WindowBlind;
+export default Blinds;

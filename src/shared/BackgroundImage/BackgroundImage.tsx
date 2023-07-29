@@ -1,14 +1,13 @@
-import { YMaps, Map } from "@pbe/react-yandex-maps";
-import Image from "next/image";
-import Link from "next/link";
 import {Form} from "@/shared/Form/Form";
-import Ceilings from "@/pages/ceilings";
 import {CeilingSets} from "@/shared/CeilingSet/CeilingSet";
 import {WorkPrice} from "@/shared/WorkPrice/WorkPrice";
 import { WorksPrice } from "@/assets/mocks/worksPrice";
 
 import styles from "./BackgroundImage.module.css";
 import { Contacts } from "@/shared/Contacts/Contacts";
+import { PageBody } from "@/shared/PageBody/PageBody";
+import { dataCeilings } from "@/assets/mocks/ceilingsPageData";
+import { DescriptionList } from "@/shared/DescriptionList/DescriptionList";
 
 const servicesMap = WorksPrice;
 
@@ -43,61 +42,9 @@ export const BackgroundImage = ({
 
         <WorkPrice servicesMap={servicesMap} titleH1="Примеры стоимости натяжных потолков “под ключ”:" />
 
-        <div className={styles.ceilings}>
-            <Link href="/ceilings/matte" className={styles.ceiling}>
-                <img
-                    className={styles.ceilingImg}
-                    src="https://18onlygame.ru/wp-content/uploads/0/6/3/063500337153ce64dbcbd5e30d838c6b.jpeg"
-                    alt="matte"
-                />
-                <p>Простые натяжные потолки</p>
-            </Link>
-            <Link href="/ceilings/twoLevel" className={styles.ceiling}>
-                <img
-                    className={styles.ceilingImg}
-                    src="https://mykaleidoscope.ru/uploads/posts/2020-02/1581100299_37-p-krasivii-dizain-potolkov-63.jpg"
-                    alt="matte"
-                />
-                <p>Двухуровневые потолки</p>
-            </Link>
-            <Link href="/ceilings/lightLine" className={styles.ceiling}>
-                <img
-                    className={styles.ceilingImg}
-                    src="https://o3oh.ru/wp-content/uploads/2/7/4/274f5a3d97abb306d0ba2cb323614804.jpeg"
-                    alt="matte"
-                />
-                <p>Световые линии / подсветка</p>
-            </Link>
-            <Link href="/ceilings/photoPrint" className={styles.ceiling}>
-                <img
-                    className={styles.ceilingImg}
-                    src="https://studio-np.ru/upload/resize_cache/iblock/f5e/1024_600_1ae3416b702594ae4e53264b6f418921b/potolok_s_fotopechatyu_v_spalnyu_12_m.jpg"
-                    alt="matte"
-                />
-                <p>Фотопечать</p>
-            </Link>
-        </div>
+        <PageBody data={dataCeilings.data} />
 
-        <div className={styles.topWrap}>
-            <div className={styles.text}>
-                <p>{CHECK}Компания высота предлагает качественную, чистую и не дорогую установку натяжных потолков.</p>
-                <p>{CHECK}У нас собственное производство, большой выбор полотен на любой вкус. </p>
-                <p>{CHECK}Наши монтажники имеют большой опыт установки. Мы готовы сделать потолки любой сложности!</p>
-                <p>{CHECK}Работы проводятся с использованием газового монтажного пистолета - никакой пыли от
-                    перфоратора!</p>
-                <p>{CHECK}Быстрые сроки исполнения! Отличные цены! Гарантия качества!</p>
-                <p>{CHECK}Так же у нас вы можете приобрести с установкой пластиковые окна, жалюзи, рольставни,
-                    застеклить
-                    балкон!</p>
-                <p>{CHECK}При заказе остекления - скидка на натяжные потолки!</p>
-                <p>{CHECK}Различные бонусы и акции</p>
-            </div>
-            <img
-                className={styles.img}
-                alt={alt}
-                src={src}
-            />
-        </div>
+        <DescriptionList alt={alt} img={src} />
 
         <Contacts handleClick={() => {}} />
 

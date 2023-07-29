@@ -19,7 +19,9 @@
     color: lightgray;
     text-decoration: none;
 }
-
+.link:hover {
+    color: white;
+}
 .logo {
     filter: invert(100%);
     height: 35px;
