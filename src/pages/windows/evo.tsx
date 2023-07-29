@@ -8,7 +8,12 @@ const Evo = () => {
   return (
     <div>
       <Layout data={dataWindows.links}/>
-      <ProductPage productData={description.widows.evo}/>
+      <ProductPage
+        image={description.widows.evo.image}
+        title={description.widows.evo.title}
+        description={description.widows.evo.description}
+        priority={description.widows.evo.priority}
+      />
     </div>
   );
 };

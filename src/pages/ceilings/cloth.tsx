@@ -9,7 +9,12 @@ import { ProductPage } from "@/shared/ProductPage/ProductPage";
 const Cloth = () => (
     <>
         <Layout data={dataCeilings.links}/>
-        <ProductPage productData={description.ceiling.cloth}/>
+        <ProductPage
+          image={description.ceiling.cloth.image}
+          title={description.ceiling.cloth.title}
+          description={description.ceiling.cloth.description}
+          priority={description.ceiling.cloth.priority}
+        />
     </>
 )
 

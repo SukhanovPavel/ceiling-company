@@ -7,20 +7,20 @@ import { dataBlind } from "@/assets/mocks/blindPageData";
 
 
 const data = {
-  image: description.blinds.horizontal.image,
-  title: description.blinds.horizontal.title,
-  description: description.blinds.horizontal.description,
-  priority: {
-    title: description.blinds.horizontal.priority.title,
-    list: description.blinds.horizontal.priority.list
-  }
+  title: description.blinds.horizontal.priority.title,
+  list: description.blinds.horizontal.priority.list
 }
 
 const Horizontal = () => {
   return (
     <div>
       <Layout data={dataBlind.links}/>
-      <ProductPage productData={data}/>
+      <ProductPage
+        image={description.blinds.horizontal.image}
+        title={description.blinds.horizontal.title}
+        description={description.blinds.horizontal.description}
+        priority={description.blinds.horizontal.priority}
+      />
     </div>
   );
 };

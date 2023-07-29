@@ -7,7 +7,12 @@ import { ProductPage } from "@/shared/ProductPage/ProductPage";
 const LightLine = () => (
     <>
         <Layout data={dataCeilings.links}/>
-      <ProductPage productData={description.ceiling.lightLine} />
+      <ProductPage
+        image={description.ceiling.lightLine.image}
+        title={description.ceiling.lightLine.title}
+        description={description.ceiling.lightLine.description}
+        priority={description.ceiling.lightLine.priority}
+      />
     </>
 )
 

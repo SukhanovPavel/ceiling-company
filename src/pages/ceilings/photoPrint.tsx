@@ -7,7 +7,12 @@ import { ProductPage } from "@/shared/ProductPage/ProductPage";
 const PhotoPrint = () => (
     <>
         <Layout data={dataCeilings.links}/>
-      <ProductPage productData={description.ceiling.photoPrint} />
+      <ProductPage
+        image={description.ceiling.photoPrint.image}
+        title={description.ceiling.photoPrint.title}
+        description={description.ceiling.photoPrint.description}
+        priority={description.ceiling.photoPrint.priority}
+      />
     </>
 )
 

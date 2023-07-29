@@ -8,7 +8,12 @@ const Art = () => {
   return (
     <div>
       <Layout data={dataWindows.links}/>
-      <ProductPage productData={description.widows.art}/>
+      <ProductPage
+        image={description.widows.art.image}
+        title={description.widows.art.title}
+        description={description.widows.art.description}
+        priority={description.widows.art.priority}
+      />
     </div>
   );
 };

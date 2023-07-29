@@ -7,7 +7,12 @@ import { ProductPage } from "@/shared/ProductPage/ProductPage";
 const Soaring = () => (
     <>
         <Layout data={dataCeilings.links}/>
-      <ProductPage productData={description.ceiling.soaring} />
+      <ProductPage
+        image={description.ceiling.soaring.image}
+        title={description.ceiling.soaring.title}
+        description={description.ceiling.soaring.description}
+        priority={description.ceiling.soaring.priority}
+      />
     </>
 )
 

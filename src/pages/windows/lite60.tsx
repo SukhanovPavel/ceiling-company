@@ -8,7 +8,12 @@ const Lite60 = () => {
   return (
     <div>
       <Layout data={dataWindows.links}/>
-      <ProductPage productData={description.widows.lite60}/>
+      <ProductPage
+        image={description.widows.lite60.image}
+        title={description.widows.lite60.title}
+        description={description.widows.lite60.description}
+        priority={description.widows.lite60.priority}
+      />
     </div>
   );
 };

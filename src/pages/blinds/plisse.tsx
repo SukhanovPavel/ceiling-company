@@ -8,7 +8,12 @@ const Plisse = () => {
   return (
     <div>
       <Layout data={dataBlind.links}/>
-      <ProductPage productData={description.blinds.plisse}/>
+      <ProductPage
+        image={description.blinds.plisse.image}
+        title={description.blinds.plisse.title}
+        description={description.blinds.plisse.description}
+        priority={description.blinds.plisse.priority}
+      />
     </div>
   );
 };

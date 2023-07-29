@@ -8,7 +8,12 @@ const Rulonny = () => {
   return (
     <div>
       <Layout data={dataBlind.links}/>
-      <ProductPage productData={description.blinds.rulonny}/>
+      <ProductPage
+        image={description.blinds.rulonny.image}
+        title={description.blinds.rulonny.title}
+        description={description.blinds.rulonny.description}
+        priority={description.blinds.rulonny.priority}
+      />
     </div>
   );
 };

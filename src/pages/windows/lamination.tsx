@@ -9,7 +9,12 @@ const Lamination = () => {
   return (
     <div>
       <Layout data={dataWindows.links}/>
-      <ProductPage productData={description.widows.lamination}/>
+      <ProductPage
+        image={description.widows.lamination.image}
+        title={description.widows.lamination.title}
+        description={description.widows.lamination.description}
+        priority={description.widows.lamination.priority}
+      />
     </div>
   );
 };

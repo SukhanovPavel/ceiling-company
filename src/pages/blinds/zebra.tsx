@@ -8,7 +8,12 @@ const Zebra = () => {
   return (
     <div>
       <Layout data={dataBlind.links}/>
-      <ProductPage productData={description.blinds.zebra}/>
+      <ProductPage
+        image={description.blinds.zebra.image}
+        title={description.blinds.zebra.title}
+        description={description.blinds.zebra.description}
+        priority={description.blinds.zebra.priority}
+      />
     </div>
   );
 };

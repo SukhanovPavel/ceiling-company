@@ -8,7 +8,12 @@ const Smart = () => {
   return (
     <div>
       <Layout data={dataWindows.links}/>
-      <ProductPage productData={description.widows.smart}/>
+      <ProductPage
+        image={description.widows.smart.image}
+        title={description.widows.smart.title}
+        description={description.widows.smart.description}
+        priority={description.widows.smart.priority}
+      />
     </div>
   );
 };

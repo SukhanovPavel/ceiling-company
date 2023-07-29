@@ -8,7 +8,12 @@ const Vertical = () => {
   return (
     <div>
       <Layout data={dataBlind.links}/>
-      <ProductPage productData={description.blinds.vertical}/>
+      <ProductPage
+        image={description.blinds.vertical.image}
+        title={description.blinds.vertical.title}
+        description={description.blinds.vertical.description}
+        priority={description.blinds.vertical.priority}
+      />
     </div>
   );
 };

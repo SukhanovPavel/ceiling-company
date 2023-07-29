@@ -7,7 +7,12 @@ import { ProductPage } from "@/shared/ProductPage/ProductPage";
 const TwoLevel = () => (
     <>
         <Layout data={dataCeilings.links}/>
-      <ProductPage productData={description.ceiling.twoLevel} />
+      <ProductPage
+        image={description.ceiling.twoLevel.image}
+        title={description.ceiling.twoLevel.title}
+        description={description.ceiling.twoLevel.description}
+        priority={description.ceiling.twoLevel.priority}
+      />
     </>
 )
 
