@@ -19,7 +19,7 @@ type Props = {
     titleH2?: string;
     allServicesButton?: boolean;
 };
-export const WorkPrice = ({servicesMap, titleH1, allServicesButton}: Props) => {
+export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
 
     const [slide, setSlide] = useState(0);
     const Slide = servicesMap[slide];
@@ -29,7 +29,7 @@ export const WorkPrice = ({servicesMap, titleH1, allServicesButton}: Props) => {
 
     return (
         <div className={styles._}>
-            {titleH1 ? <h1>{titleH1}</h1> : null}
+            {titleH2 ? <h1>{titleH2}</h1> : null}
             <div className={styles.services}>
                 <button onClick={slide === 0 ?
                     () => setSlide(12) : () => setSlide(slide - 1)} className={styles.arrow}>{Left}</button>
