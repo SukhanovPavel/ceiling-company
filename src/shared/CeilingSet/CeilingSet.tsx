@@ -33,7 +33,7 @@ export const CeilingSets = ({handleClick}: Props) => (
                     <Image
                       src={mansard}
                       // fill
-                      width="100%"
+                      width="200"
                       height="200"
                     />
                 <div className={styles.list}>
@@ -52,7 +52,7 @@ export const CeilingSets = ({handleClick}: Props) => (
             </div>
             <div className={styles.shadow}>
                 <h3>Двухуровневый натяжной потолок в гостинной</h3>
-                <Image src={gostinaya} width="100%" height="200" alt="gostinaya"/>
+                <Image src={gostinaya} width="200" height="200" alt="gostinaya"/>
                 <div className={styles.list}>
                     <div className={styles.p}>Полотно MSD Premium</div>
                     <div className={styles.p}>Монтаж стенового пр.премиум</div>
@@ -70,7 +70,7 @@ export const CeilingSets = ({handleClick}: Props) => (
             </div>
             <div className={styles.set}>
                 <h3>Световая линия 10 п.м</h3>
-                <Image src={lightLine} width="100%" height="200" alt="lightLine"/>
+                <Image src={lightLine} width="200" height="200" alt="lightLine"/>
                 <div className={styles.list}>
                     <div className={styles.p}>Профиль “световая линия”</div>
                     <div className={styles.p}>Рассеивающий световой экран</div>
