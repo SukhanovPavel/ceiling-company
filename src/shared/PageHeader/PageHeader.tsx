@@ -21,7 +21,7 @@ export const PageHeader = () => {
         <nav className={styles._}>
             <img
                 className={styles.logo}
-                src="https://4.downloader.disk.yandex.ru/preview/d2fcc3a96d265777342475e861eec973ececd9240fec3cd361192e2facb5be12/inf/xZxwoI1Xz-wOI-oUzz8X0_J2E61a7hMZpHjCkzZD6u230fcerraMcc0oUgcNnWeXbMY5dtShRkQbyiSlSD7K4g%3D%3D?uid=336597251&filename=logo.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=336597251&tknv=v2&size=2880x1358" alt="logo"
+                src="/logo.png" alt="logo"
             />
             <div className={menu}>
 
