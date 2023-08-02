@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/shared/CeilingSet/CeilingSet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/CeilingSet/CeilingSet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/blindPageData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/blindPageData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/DescriptionList/DescriptionList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/DescriptionList/DescriptionList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/PageBody/PageBody.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +94,7 @@
       <workItem from="1684480456936" duration="5026000" />
       <workItem from="1684735070216" duration="8124000" />
       <workItem from="1685131365734" duration="65000" />
-      <workItem from="1690310137492" duration="46793000" />
+      <workItem from="1690310137492" duration="51487000" />
     </task>
     <servers />
   </component>

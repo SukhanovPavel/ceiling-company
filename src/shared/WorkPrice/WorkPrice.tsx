@@ -36,7 +36,9 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
 
                 <div className={styles.wrap}>
                     <div key={Slide.title} className={styles.service}>
-                        <img className={styles.img} src={Slide.img} />
+                        <div className={styles.imgContainer}>
+                            <img alt="vysota" className={styles.img} src={Slide.img} />
+                        </div>
                         <h3>{Slide.title}</h3>
                         <div className={styles.desc}>
                             {Slide.description.map(item =>
@@ -51,7 +53,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                             <button className={styles.button}>Подробнее</button>
                         </Link>
                     </div>
-                    <div key={SlideTwo.title} className={styles.service}>
+                    <div key={SlideTwo.title} className={styles.service+" "+styles.dNone}>
                         <img className={styles.img} src={SlideTwo.img} />
                         <h3>{SlideTwo.title}</h3>
                         <div className={styles.desc}>
@@ -67,7 +69,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                             <button className={styles.button}>Подробнее</button>
                         </Link>
                     </div>
-                    <div className={styles.service}>
+                    <div className={styles.service+" "+styles.dNone}>
                         <img className={styles.img} src={SlideThree.img} />
                         <h3>{SlideThree.title}</h3>
                         <div className={styles.desc}>
@@ -85,8 +87,13 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                     </div>
                 </div>
 
-                <button onClick={slide === 12 ?
-                    () => setSlide(0) : () => setSlide(slide + 1)} className={styles.arrow}>{Right}</button>
+                <button
+                  onClick={slide === 12 ?
+                    () => setSlide(0) : () => setSlide(slide + 1)}
+                  className={styles.arrow}
+                >
+                    {Right}
+                </button>
             </div>
             {allServicesButton ? <Link href="/services"><button className={styles.button}>Смотреть все услуги</button></Link> : null}
         </div>

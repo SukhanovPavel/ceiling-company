@@ -52,7 +52,7 @@ export const dataBlind  = {
     },
     {
       link: "/blinds/horizontal",
-      img: "blinds/horiz.jpeg",
+      img: "horiz.jpeg",
       title: "Горизонтальные жалюзи",
       description: "Подробнее >"
     },

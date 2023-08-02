@@ -7,13 +7,11 @@
     justify-content: space-between;
     align-items: flex-start;
     margin: 1rem auto;
-    border-radius: 2rem;
     min-width: 20rem;
     width: 90%;
     height: auto;
     padding: 1rem;
-    border-left: solid gray 1px;
-    border-right: solid gray 1px;
+    border-bottom: solid lightgrey 1px;
     gap: 5rem;
     transition: 0.5s;
 }
@@ -35,10 +33,14 @@
 
 @media screen and (max-width: 980px) {
     ._ {
-        margin: 0;
+        margin: 1.3rem 0;
+        padding: 1rem;
     }
     .item {
         flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem 0;
     }
     .img {
         width: 100%;

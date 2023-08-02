@@ -26,6 +26,7 @@
 @media screen and (max-width: 980px) {
     ._ {
         flex-direction: column;
+        padding: 0;
     }
     .topDesc {
         width: 100%;

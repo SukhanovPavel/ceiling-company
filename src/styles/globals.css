@@ -71,9 +71,9 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
-  button {
-    background: goldenrod;
-  }
+  /*button {*/
+  /*  background: goldenrod;*/
+  /*}*/
   #logoMain {
     filter: invert();
   }
