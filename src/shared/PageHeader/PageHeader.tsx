@@ -53,7 +53,7 @@ export const PageHeader = () => {
 
             </div>
 
-            <Link className={styles.phoneNumber} href="tel:+79999999999">
+            <Link className={styles.phoneNumber} href="tel:+79153277339">
                 +7(999)999-99-99
             </Link>
 

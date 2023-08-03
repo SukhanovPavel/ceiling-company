@@ -284,4 +284,15 @@
         border: none;
         fill: whitesmoke;
     }
+    .phoneNumber {
+        display: none;
+    }
+    .phoneButton {
+        display: block;
+        background: none;
+        fill: white;
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+    }
 }
