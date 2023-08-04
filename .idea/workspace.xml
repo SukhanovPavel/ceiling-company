@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/logoTop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/accessories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/accessories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/forDillers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forDillers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ourWorks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ourWorks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/reviews.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/reviews.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +82,7 @@
       <workItem from="1684480456936" duration="5026000" />
       <workItem from="1684735070216" duration="8124000" />
       <workItem from="1685131365734" duration="65000" />
-      <workItem from="1690310137492" duration="57079000" />
+      <workItem from="1690310137492" duration="57407000" />
     </task>
     <servers />
   </component>

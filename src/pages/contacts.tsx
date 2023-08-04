@@ -50,7 +50,7 @@ const Contacts = () => (
             <link rel="icon" href="/logoTop.png" />
         </Head>
         <Layout data={data}/>
-        <ContactPage />
+        <ContactPage handleClick={() => null}/>
     </>
 )
 
