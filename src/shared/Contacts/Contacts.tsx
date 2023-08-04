@@ -12,15 +12,16 @@ export const Contacts = ({handleClick}: Props) => (
     <div className={styles._}>
       <div className={styles.block}>
         <h3>Контакты</h3>
-        <div>
+        <div className={styles.phones}>
           <div>Адрес:</div>
           <div>Шатура, проспект Ильича д.40</div>
         </div>
-        <div>
+        <div className={styles.phones}>
           <div>Телефон:</div>
-          <a className={styles.phone} href="tel:+79999999999">8 (999) 999-99-99</a>
+          <div><a className={styles.phone} href="tel:+79153277339">8 (915) 327-73-39</a></div>
+          <div><a className={styles.phone} href="tel:+79264977703">8 (926) 497-77-03</a></div>
         </div>
-        <div>
+        <div className={styles.phones}>
           <div>Режим работы:</div>
           <div>Пн-пт: 9:00-18:00</div>
         </div>

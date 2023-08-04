@@ -35,7 +35,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                     () => setSlide(12) : () => setSlide(slide - 1)} className={styles.arrow}>{Left}</button>
 
                 <div className={styles.wrap}>
-                    <div key={Slide.title} className={styles.service}>
+                    <div key={Slide.title} className={styles.service+" "+styles.shadowLeft}>
                         <div className={styles.imgContainer}>
                             <img alt="vysota" className={styles.img} src={Slide.img} />
                         </div>
@@ -53,7 +53,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                             <button className={styles.button}>Подробнее</button>
                         </Link>
                     </div>
-                    <div key={SlideTwo.title} className={styles.service+" "+styles.dNone}>
+                    <div key={SlideTwo.title} className={styles.service+" "+styles.dNone+" "+styles.shadowCenter}>
                         <img className={styles.img} src={SlideTwo.img} />
                         <h3>{SlideTwo.title}</h3>
                         <div className={styles.desc}>
@@ -69,7 +69,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                             <button className={styles.button}>Подробнее</button>
                         </Link>
                     </div>
-                    <div className={styles.service+" "+styles.dNone}>
+                    <div className={styles.service+" "+styles.dNone+" "+styles.shadowRight}>
                         <img className={styles.img} src={SlideThree.img} />
                         <h3>{SlideThree.title}</h3>
                         <div className={styles.desc}>

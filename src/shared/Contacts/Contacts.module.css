@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 3rem;
+    margin: 8rem auto;
 }
 
 .block {
@@ -19,9 +19,13 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+.phones {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 .phone {
     font-style: italic;
-    margin-top: 1rem;
     color: indianred;
     border-bottom: 2px solid indianred;
 }

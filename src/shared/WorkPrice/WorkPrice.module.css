@@ -43,6 +43,19 @@
     align-items: center;
     gap: 1rem;
     padding: 1rem 1rem;
+
+}
+.shadowCenter {
+    -webkit-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2), 3px 3px 15px 5px rgba(30, 60, 80, 0.2);
+    -moz-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2), 3px 3px 15px 5px rgba(30, 60, 80, 0.2);
+    box-shadow: -3px -3px 15px 5px rgba(34, 60, 80, 0.2), 3px 3px 15px 5px rgba(30, 60, 80, 0.2);
+}
+.shadowLeft {
+    -webkit-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
+}
+.shadowRight {
     -webkit-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
     box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2);
