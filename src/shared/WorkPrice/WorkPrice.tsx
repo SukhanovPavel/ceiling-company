@@ -62,6 +62,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                     <div key={SlideTwo.title} className={styles.service+" "+styles.dNone+" "+styles.shadowCenter}>
                         <div className={styles.imgContainer}>
                             <Image
+                              alt="vysota"
                               fill
                               className={styles.img}
                               src={SlideTwo.img}
@@ -84,6 +85,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                     <div className={styles.service+" "+styles.dNone+" "+styles.shadowRight}>
                         <div className={styles.imgContainer}>
                             <Image
+                              alt="vysota"
                               fill
                               className={styles.img}
                               src={SlideThree.img}
