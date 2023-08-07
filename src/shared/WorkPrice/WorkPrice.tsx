@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import styles from "./WorkPrice.module.css";
 import {useState} from "react";
+import Image from "next/image";
 
 const Left = <svg className={styles.arrow} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <path d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM217.4 376.9L117.5 269.8c-3.5-3.8-5.5-8.7-5.5-13.8s2-10.1 5.5-13.8l99.9-107.1c4.2-4.5 10.1-7.1 16.3-7.1c12.3 0 22.3 10 22.3 22.3l0 57.7 96 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-96 0 0 57.7c0 12.3-10 22.3-22.3 22.3c-6.2 0-12.1-2.6-16.3-7.1z"/></svg>
@@ -37,7 +38,12 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                 <div className={styles.wrap}>
                     <div key={Slide.title} className={styles.service+" "+styles.shadowLeft}>
                         <div className={styles.imgContainer}>
-                            <img alt="vysota" className={styles.img} src={Slide.img} />
+                            <Image
+                              alt="vysota"
+                              fill
+                              className={styles.img}
+                              src={Slide.img}
+                            />
                         </div>
                         <h3>{Slide.title}</h3>
                         <div className={styles.desc}>
@@ -54,10 +60,16 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                         </Link>
                     </div>
                     <div key={SlideTwo.title} className={styles.service+" "+styles.dNone+" "+styles.shadowCenter}>
-                        <img className={styles.img} src={SlideTwo.img} />
+                        <div className={styles.imgContainer}>
+                            <Image
+                              fill
+                              className={styles.img}
+                              src={SlideTwo.img}
+                            />
+                        </div>
                         <h3>{SlideTwo.title}</h3>
                         <div className={styles.desc}>
-                            {Slide.description.map(item =>
+                            {SlideTwo.description.map(item =>
                               (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}
                         </div>
                         {SlideTwo.price ?
@@ -70,10 +82,16 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                         </Link>
                     </div>
                     <div className={styles.service+" "+styles.dNone+" "+styles.shadowRight}>
-                        <img className={styles.img} src={SlideThree.img} />
+                        <div className={styles.imgContainer}>
+                            <Image
+                              fill
+                              className={styles.img}
+                              src={SlideThree.img}
+                            />
+                        </div>
                         <h3>{SlideThree.title}</h3>
                         <div className={styles.desc}>
-                            {Slide.description.map(item =>
+                            {SlideThree.description.map(item =>
                               (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}
                         </div>
                         {SlideThree.price ?

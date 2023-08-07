@@ -24,9 +24,9 @@ export const DynamicHeader = ({ data, title, modal, openModal }: Props) => (
           </Link>
         )) : null}
       </div>
-      <button type="button" onClick={openModal} className={styles.navButton}>
-        Заказать звонок
-      </button>
+      {/*<button type="button" onClick={openModal} className={styles.navButton}>*/}
+      {/*  Заказать звонок*/}
+      {/*</button>*/}
     </nav>
     {modal ? (
       <div className={styles.div}>
