@@ -29,13 +29,13 @@ export const dataCeilings  = {
         {
             link: "/ceilings/matte",
             img: "https://18onlygame.ru/wp-content/uploads/0/6/3/063500337153ce64dbcbd5e30d838c6b.jpeg",
-            title: "Простые натяжные потолки.",
+            title: "Простые натяжные потолки",
             description: "Стоимость - от 500р"
         },
         {
             link: "/ceilings/lightLine",
             img: "https://o3oh.ru/wp-content/uploads/2/7/4/274f5a3d97abb306d0ba2cb323614804.jpeg",
-            title: "Световые линии / подсветка.",
+            title: "Световые линии / подсветка",
             description: "Стоимость - от 2500р"
         },
         {
@@ -47,7 +47,7 @@ export const dataCeilings  = {
         {
             link: "/ceilings/twoLevel",
             img: "https://mykaleidoscope.ru/uploads/posts/2020-02/1581100299_37-p-krasivii-dizain-potolkov-63.jpg",
-            title: "Двухуровневые потолки.",
+            title: "Двухуровневые потолки",
             description: "Стоимость - от 1500р"
         },
     ]

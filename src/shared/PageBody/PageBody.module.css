@@ -1,8 +1,8 @@
 ._ {
-    margin: 8.5rem 2rem;
+    margin: 8.5rem 1rem;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: center;*/
     gap: 1rem;
 }
 .item {
@@ -10,7 +10,7 @@
     margin: 0 auto;
     background: lightgrey;
     border-radius: 2rem;
-    min-width: 20rem;
+    min-width: 19rem;
     width: 23%;
     height: auto;
     padding: 1rem;
@@ -23,7 +23,7 @@
     transform: scale(1.1);
     border: solid 1px lightgray;
 }
-.item h2 {
+.item h3 {
     height: 2rem;
 }
 .img {
