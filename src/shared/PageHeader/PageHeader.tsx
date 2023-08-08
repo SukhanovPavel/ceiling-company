@@ -57,7 +57,7 @@ export const PageHeader = () => {
                 8 (915) 327-73-39
             </Link>
 
-            <Link href="tel:+79999999999">
+            <Link href="tel:+79153277339">
                 <button type="button" className={styles.phoneButton}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                         <path

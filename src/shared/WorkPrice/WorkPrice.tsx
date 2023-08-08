@@ -32,88 +32,119 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
         <div className={styles._}>
             {titleH2 ? <h1>{titleH2}</h1> : null}
             <div className={styles.services}>
-                <button onClick={slide === 0 ?
-                    () => setSlide(12) : () => setSlide(slide - 1)} className={styles.arrow}>{Left}</button>
+                {/*<button onClick={slide === 0 ?*/}
+                {/*    () => setSlide(12) : () => setSlide(slide - 1)} className={styles.arrow}>{Left}</button>*/}
 
-                <div className={styles.wrap}>
-                    <div key={Slide.title} className={styles.service+" "+styles.shadowLeft}>
-                        <div className={styles.imgContainer}>
-                            <Image
-                              alt="vysota"
-                              fill
-                              className={styles.img}
-                              src={Slide.img}
-                            />
-                        </div>
-                        <h3>{Slide.title}</h3>
-                        <div className={styles.desc}>
-                            {Slide.description.map(item =>
-                              (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}
-                        </div>
-                        {Slide.price ?
-                          <div>
-                              Цена: {Slide.price} руб.
-                          </div> : null
-                        }
-                        <Link href={Slide.link}>
-                            <button className={styles.button}>Подробнее</button>
-                        </Link>
-                    </div>
-                    <div key={SlideTwo.title} className={styles.service+" "+styles.dNone+" "+styles.shadowCenter}>
-                        <div className={styles.imgContainer}>
-                            <Image
-                              alt="vysota"
-                              fill
-                              className={styles.img}
-                              src={SlideTwo.img}
-                            />
-                        </div>
-                        <h3>{SlideTwo.title}</h3>
-                        <div className={styles.desc}>
-                            {SlideTwo.description.map(item =>
-                              (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}
-                        </div>
-                        {SlideTwo.price ?
-                          <div>
-                              Цена: {SlideTwo.price} руб.
-                          </div> : null
-                        }
-                        <Link href={SlideTwo.link}>
-                            <button className={styles.button}>Подробнее</button>
-                        </Link>
-                    </div>
-                    <div className={styles.service+" "+styles.dNone+" "+styles.shadowRight}>
-                        <div className={styles.imgContainer}>
-                            <Image
-                              alt="vysota"
-                              fill
-                              className={styles.img}
-                              src={SlideThree.img}
-                            />
-                        </div>
-                        <h3>{SlideThree.title}</h3>
-                        <div className={styles.desc}>
-                            {SlideThree.description.map(item =>
-                              (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}
-                        </div>
-                        {SlideThree.price ?
-                          <div>
-                              Цена: {SlideThree.price} руб.
-                          </div> : null
-                        }
-                        <Link href={SlideThree.link}>
-                            <button className={styles.button}>Подробнее</button>
-                        </Link>
-                    </div>
-                </div>
+                {/*<div className={styles.wrap}>*/}
+                {/*    <div*/}
+                {/*      key={Slide.title}*/}
+                {/*      className={styles.service+" "+styles.shadowLeft}*/}
+                {/*    >*/}
+                {/*        <div className={styles.imgContainer}>*/}
+                {/*            <Image*/}
+                {/*              alt="vysota"*/}
+                {/*              fill*/}
+                {/*              className={styles.img}*/}
+                {/*              src={Slide.img}*/}
+                {/*            />*/}
+                {/*        </div>*/}
+                {/*        <h3>{Slide.title}</h3>*/}
+                {/*        <div className={styles.desc}>*/}
+                {/*            {Slide.description.map(item =>*/}
+                {/*              (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}*/}
+                {/*        </div>*/}
+                {/*        {Slide.price ?*/}
+                {/*          <div>*/}
+                {/*              Цена: {Slide.price} руб.*/}
+                {/*          </div> : null*/}
+                {/*        }*/}
+                {/*        <Link href={Slide.link}>*/}
+                {/*            <button className={styles.button}>Подробнее</button>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div key={SlideTwo.title} className={styles.service+" "+styles.dNone+" "+styles.shadowCenter}>*/}
+                {/*        <div className={styles.imgContainer}>*/}
+                {/*            <Image*/}
+                {/*              alt="vysota"*/}
+                {/*              fill*/}
+                {/*              className={styles.img}*/}
+                {/*              src={SlideTwo.img}*/}
+                {/*            />*/}
+                {/*        </div>*/}
+                {/*        <h3>{SlideTwo.title}</h3>*/}
+                {/*        <div className={styles.desc}>*/}
+                {/*            {SlideTwo.description.map(item =>*/}
+                {/*              (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}*/}
+                {/*        </div>*/}
+                {/*        {SlideTwo.price ?*/}
+                {/*          <div>*/}
+                {/*              Цена: {SlideTwo.price} руб.*/}
+                {/*          </div> : null*/}
+                {/*        }*/}
+                {/*        <Link href={SlideTwo.link}>*/}
+                {/*            <button className={styles.button}>Подробнее</button>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*    <div className={styles.service+" "+styles.dNone+" "+styles.shadowRight}>*/}
+                {/*        <div className={styles.imgContainer}>*/}
+                {/*            <Image*/}
+                {/*              alt="vysota"*/}
+                {/*              fill*/}
+                {/*              className={styles.img}*/}
+                {/*              src={SlideThree.img}*/}
+                {/*            />*/}
+                {/*        </div>*/}
+                {/*        <h3>{SlideThree.title}</h3>*/}
+                {/*        <div className={styles.desc}>*/}
+                {/*            {SlideThree.description.map(item =>*/}
+                {/*              (<div key={item.text}><span>{item.text}</span><span>{item.num}</span></div>))}*/}
+                {/*        </div>*/}
+                {/*        {SlideThree.price ?*/}
+                {/*          <div>*/}
+                {/*              Цена: {SlideThree.price} руб.*/}
+                {/*          </div> : null*/}
+                {/*        }*/}
+                {/*        <Link href={SlideThree.link}>*/}
+                {/*            <button className={styles.button}>Подробнее</button>*/}
+                {/*        </Link>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
-                <button
-                  onClick={slide === 12 ?
-                    () => setSlide(0) : () => setSlide(slide + 1)}
-                  className={styles.arrow}
-                >
-                    {Right}
-                </button>
+                {/*<button*/}
+                {/*  onClick={slide === 12 ?*/}
+                {/*    () => setSlide(0) : () => setSlide(slide + 1)}*/}
+                {/*  className={styles.arrow}*/}
+                {/*>*/}
+                {/*    {Right}*/}
+                {/*</button>*/}
+
+                {servicesMap.map( item =>
+                  <div key={item.title} className={styles.service}>
+                    <div className={styles.imgContainer}>
+                        <Image
+                          alt="vysota"
+                          fill
+                          className={styles.img}
+                          src={item.img}
+                        />
+                    </div>
+                    <h3>{item.title}</h3>
+                    <div className={styles.desc}>
+                        {item.description.map(desc =>
+                          (<div key={desc.text}><span>{desc.text}</span><span>{desc.num}</span></div>))}
+                    </div>
+                    {item.price ?
+                      <div>
+                          Цена: {item.price} руб.
+                      </div> : null
+                    }
+                    <Link href={item.link}>
+                        <button className={styles.button}>Подробнее</button>
+                    </Link>
+                  </div>)
+                }
+
+
             </div>
             {allServicesButton ? <Link href="/services"><button className={styles.button}>Смотреть все услуги</button></Link> : null}
         </div>

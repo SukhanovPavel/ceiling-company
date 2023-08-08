@@ -1,6 +1,7 @@
 ._ {
     margin-top: 12rem;
     height: auto;
+    padding: 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -13,7 +14,19 @@
 .services {
     display: flex;
     gap: 1rem;
-    width: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+.service {
+    position: relative;
+    display: flex;
+    width: 33%;
+    min-width: 19rem;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /*padding: 1rem 1rem;*/
 }
 .wrap {
     width: 100%;
@@ -30,27 +43,14 @@
 .imgContainer {
     position: relative;
     width: 100%;
-    height: 15rem;
+    height: 16rem;
 }
 .img {
     position: absolute;
-    right: -100%;
-    width: 100%;
+    /*right: -100%;*/
+    /*width: 100%;*/
     height: 15rem;
     border-radius: 1rem;
-}
-
-.service {
-    position: relative;
-    display: flex;
-    width: 30%;
-    min-width: 15rem;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem 1rem;
-
 }
 .shadowCenter {
     -webkit-box-shadow: 1px 1px 15px 5px rgba(34, 60, 80, 0.2), 3px 3px 15px 5px rgba(30, 60, 80, 0.2);
@@ -71,7 +71,7 @@
     height: 3rem;
 }
 .desc {
-    height: 8rem;
+    height: 9rem;
     display: flex;
     gap: 0.5rem;
     text-align: justify;
@@ -87,6 +87,8 @@
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+        padding: 0;
+        margin: 0;
     }
 
     .services {
@@ -118,21 +120,28 @@
         padding: 0;
         width: 100%;
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
     .service {
         width: 100%;
-        padding: 1rem;
+        /*padding: 1rem;*/
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        height: min-content;
+    }
+    .imgContainer {
+        position: relative;
+        width: 100%;
+        height: 35vh;
     }
     .img {
-        height: 30vh;
-        border-radius: 1rem;
+        width: 100%;
+        /*height: 40vh;*/
     }
     .desc {
-        height: 100%;
+        /*height: 100%;*/
+        height: 40%;
         display: flex;
         flex-direction: column;
         gap: 1rem;

@@ -147,21 +147,23 @@
         height: auto;
         padding: 1rem 0;
         position: fixed;
-        bottom: 4rem;
+        bottom: 0;
         top: auto;
         left: 0;
         right: 0;
     }
     .footerMenu {
         position: fixed;
-        left: 0;
+        /*left: 0;*/
         right: 0;
         bottom: 0;
+        width: 4rem;
         height: 4rem;
         background: rgba(0,0,0,0.8);
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 1rem;
     }
     .burger {
         background: none;
@@ -174,17 +176,6 @@
     }
     .phoneIcon {
         fill: whitesmoke;
-    }
-    .footerMenu {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 4rem;
-        background: rgba(0,0,0,0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     .burger {
         background: none;
@@ -223,6 +214,9 @@
     }
 }
 @media screen and (max-width: 490px) {
+    .nav {
+        position: relative;
+    }
 
     /*.phoneButton {*/
     /*    display: flex;*/
@@ -240,9 +234,10 @@
     }
     .footerMenu {
         position: fixed;
-        left: 0;
+        /*left: 0;*/
         right: 0;
         bottom: 0;
+        /*width: 4rem;*/
         height: 4rem;
         background: rgba(0,0,0,0.8);
         display: flex;
