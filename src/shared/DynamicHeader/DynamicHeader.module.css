@@ -84,6 +84,7 @@
     .nav {
         overflow-y: auto;
         padding: 0 1rem;
+        top: 3.5rem;
     }
     .navButton {
         display: none;
