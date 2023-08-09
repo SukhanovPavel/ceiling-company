@@ -30,7 +30,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
 
     return (
         <div className={styles._}>
-            {titleH2 ? <h1>{titleH2}</h1> : null}
+            {titleH2 ? <h2>{titleH2}</h2> : null}
             <div className={styles.services}>
                 {/*<button onClick={slide === 0 ?*/}
                 {/*    () => setSlide(12) : () => setSlide(slide - 1)} className={styles.arrow}>{Left}</button>*/}

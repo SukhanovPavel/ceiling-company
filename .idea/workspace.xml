@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/DynamicHeader/DynamicHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/DynamicHeader/DynamicHeader.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/PageBody/PageBody.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/PageHeader/PageHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/PageHeader/PageHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +92,7 @@
       <workItem from="1684735070216" duration="8124000" />
       <workItem from="1685131365734" duration="65000" />
       <workItem from="1690310137492" duration="58083000" />
-      <workItem from="1691410091960" duration="13112000" />
+      <workItem from="1691410091960" duration="15812000" />
     </task>
     <servers />
   </component>

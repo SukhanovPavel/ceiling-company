@@ -34,8 +34,8 @@
 
 @media (max-width: 800px) {
     ._ {
-        margin: 4rem 0;
-        padding: 0;
+        margin: 8rem 0;
+        padding: 0 1rem;
     }
     .item {
         width: 100%;

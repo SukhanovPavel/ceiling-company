@@ -140,17 +140,26 @@
     }
     .links {
         background: black;
-        gap: 1rem;
-        font-size: 0.8rem;
+        gap: 1.5rem;
+        font-size: 1.3rem;
         /*display: flex;*/
         flex-direction: column;
         height: auto;
-        padding: 1rem 0;
+        padding: 4rem 0;
         position: fixed;
         bottom: 0;
         top: auto;
         left: 0;
         right: 0;
+        animation: 0.4s menu;
+    }
+    @keyframes menu {
+        from {
+            margin-bottom: -200%;
+        }
+        to {
+            margin-bottom: 0;
+        }
     }
     .footerMenu {
         position: fixed;

@@ -82,7 +82,8 @@
     /*    overflow-x: auto;*/
     /*}*/
     .nav {
-        display: none;
+        overflow-y: auto;
+        padding: 0 1rem;
     }
     .navButton {
         display: none;
