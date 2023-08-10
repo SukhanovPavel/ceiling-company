@@ -9,10 +9,10 @@ type Props = {
     img: string;
     title: string;
     description: string;
-  }
+  }[]
 }
 
-export const PhotoFeed = ({data}: Props[]) => {
+export const PhotoFeed = ({data}: Props) => {
   return (
     <div className={styles._}>
       {
@@ -21,8 +21,6 @@ export const PhotoFeed = ({data}: Props[]) => {
             <div className={styles.imgContainer}>
               <Image
                 fill
-                // width={250}
-                // height={180}
                 priority
                 className={styles.img}
                 src={item.img}
