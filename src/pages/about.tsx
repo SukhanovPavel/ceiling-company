@@ -1,7 +1,7 @@
-import {Layout} from "@/shared/Layout/Layout";
+import {Layout} from "@/components/Layout/Layout";
 import {description} from "@/assets/mocks/description";
 import {dataHome} from "@/assets/mocks/homePageData";
-import { DescriptionList } from "@/shared/DescriptionList/DescriptionList";
+import { DescriptionList } from "@/components/DescriptionList/DescriptionList";
 import Head from "next/head";
 
 const About = () => (

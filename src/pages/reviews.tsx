@@ -1,4 +1,4 @@
-import {Layout} from "@/shared/Layout/Layout";
+import {Layout} from "@/components/Layout/Layout";
 import {dataHome} from "@/assets/mocks/homePageData";
 import Head from "next/head";
 

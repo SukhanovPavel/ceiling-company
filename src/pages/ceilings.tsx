@@ -1,5 +1,5 @@
-import {Layout} from "@/shared/Layout/Layout";
-import { PageBody } from "@/shared/PageBody/PageBody";
+import {Layout} from "@/components/Layout/Layout";
+import { PageBody } from "@/components/PageBody/PageBody";
 import {dataCeilings} from "@/assets/mocks/ceilingsPageData";
 import Head from "next/head";
 

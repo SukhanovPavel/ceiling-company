@@ -1,7 +1,7 @@
-import {Layout} from "@/shared/Layout/Layout";
+import {Layout} from "@/components/Layout/Layout";
 import {description} from "@/assets/mocks/description";
 import {dataHome} from "@/assets/mocks/homePageData";
-import { PageBody } from "@/shared/PageBody/PageBody";
+import { PageBody } from "@/components/PageBody/PageBody";
 import Head from "next/head";
 
 const Actions = () => (

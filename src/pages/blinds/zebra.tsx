@@ -1,7 +1,7 @@
 import React from "react";
-import { Layout } from "@/shared/Layout/Layout";
+import { Layout } from "@/components/Layout/Layout";
 import { dataBlind } from "@/assets/mocks/blindPageData";
-import { ProductPage } from "@/shared/ProductPage/ProductPage";
+import { ProductPage } from "@/components/ProductPage/ProductPage";
 import { description } from "@/assets/mocks/description";
 
 const Zebra = () => {

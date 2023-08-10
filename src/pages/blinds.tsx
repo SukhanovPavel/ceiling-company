@@ -1,5 +1,5 @@
-import { Layout } from "@/shared/Layout/Layout";
-import { PageBody } from "@/shared/PageBody/PageBody";
+import { Layout } from "@/components/Layout/Layout";
+import { PageBody } from "@/components/PageBody/PageBody";
 import { dataBlind } from "@/assets/mocks/blindPageData";
 import Head from "next/head";
 

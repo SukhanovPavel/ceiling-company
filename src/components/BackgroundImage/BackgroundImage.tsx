@@ -1,13 +1,13 @@
-import {CeilingSets} from "@/shared/CeilingSet/CeilingSet";
-import {WorkPrice} from "@/shared/WorkPrice/WorkPrice";
+import {CeilingSets} from "@/components/CeilingSet/CeilingSet";
+import {WorkPrice} from "@/components/WorkPrice/WorkPrice";
 import { WorksPrice } from "@/assets/mocks/worksPrice";
 
 import styles from "./BackgroundImage.module.css";
-import { Contacts } from "@/shared/Contacts/Contacts";
-import { PageBody } from "@/shared/PageBody/PageBody";
+import { Contacts } from "@/components/Contacts/Contacts";
+import { PageBody } from "@/components/PageBody/PageBody";
 import { dataCeilings } from "@/assets/mocks/ceilingsPageData";
-import { DescriptionList } from "@/shared/DescriptionList/DescriptionList";
-import { Form } from "@/shared/Form/Form";
+import { DescriptionList } from "@/components/DescriptionList/DescriptionList";
+import { Form } from "@/components/Form/Form";
 
 const servicesMap = WorksPrice;
 

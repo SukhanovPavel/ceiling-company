@@ -1,6 +1,6 @@
 import React from "react";
-import { Layout } from "@/shared/Layout/Layout";
-import { ProductPage } from "@/shared/ProductPage/ProductPage";
+import { Layout } from "@/components/Layout/Layout";
+import { ProductPage } from "@/components/ProductPage/ProductPage";
 import { dataWindows } from "@/assets/mocks/windowsPageData";
 import { description } from "@/assets/mocks/description";
 

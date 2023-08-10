@@ -1,5 +1,5 @@
-import { Layout } from "@/shared/Layout/Layout";
-import { ProductPage } from "@/shared/ProductPage/ProductPage";
+import { Layout } from "@/components/Layout/Layout";
+import { ProductPage } from "@/components/ProductPage/ProductPage";
 import { description } from "@/assets/mocks/description";
 import { dataBlind } from "@/assets/mocks/blindPageData";
 

@@ -1,5 +1,5 @@
-import { Layout } from "@/shared/Layout/Layout";
-import { Contacts as ContactPage } from "@/shared/Contacts/Contacts";
+import { Layout } from "@/components/Layout/Layout";
+import { Contacts as ContactPage } from "@/components/Contacts/Contacts";
 import Head from "next/head";
 
 const data = [

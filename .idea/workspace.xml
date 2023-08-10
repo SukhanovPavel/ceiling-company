@@ -4,7 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="" />
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/accessories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/accessories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/horizontal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/horizontal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/plisse.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/plisse.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rimsky.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/rimsky.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rulonny.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/rulonny.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/vertical.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/vertical.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/zebra.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blinds/zebra.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/cloth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/cloth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/lightLine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/lightLine.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/matte.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/matte.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/photoPrint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/photoPrint.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/soaring.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/soaring.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/twoLevel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ceilings/twoLevel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forDillers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/forDillers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ourWorks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ourWorks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/reviews.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/reviews.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/art.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/art.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/evo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/evo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/lamination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/lamination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite60.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/lite60.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite70.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/lite70.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/smart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/windows/smart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/BackgroundImage/BackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Calculator/Calculator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calculator/Calculator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Calculator/Calculator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calculator/Calculator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Calculator/CalculatorForm/CalculatorForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calculator/CalculatorForm/CalculatorForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Calculator/CalculatorForm/CalculatorForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Calculator/CalculatorForm/CalculatorForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/CeilingSet/CeilingSet.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CeilingSet/CeilingSet.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/CeilingSet/CeilingSet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CeilingSet/CeilingSet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/DescriptionList/DescriptionList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DescriptionList/DescriptionList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/DescriptionList/DescriptionList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DescriptionList/DescriptionList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/DynamicHeader/DynamicHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/DynamicHeader/DynamicHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageBody/PageBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +139,7 @@
       <workItem from="1684735070216" duration="8124000" />
       <workItem from="1685131365734" duration="65000" />
       <workItem from="1690310137492" duration="58083000" />
-      <workItem from="1691410091960" duration="16562000" />
+      <workItem from="1691410091960" duration="21546000" />
     </task>
     <servers />
   </component>

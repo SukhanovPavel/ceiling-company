@@ -1,7 +1,7 @@
-import {Layout} from "@/shared/Layout/Layout";
+import {Layout} from "@/components/Layout/Layout";
 import {description} from "@/assets/mocks/description";
 import {dataCeilings} from "@/assets/mocks/ceilingsPageData";
-import { ProductPage } from "@/shared/ProductPage/ProductPage";
+import { ProductPage } from "@/components/ProductPage/ProductPage";
 
 const Matte = () => (
     <>

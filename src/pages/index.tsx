@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import {dataHome} from "@/assets/mocks/homePageData";
-import {Layout} from "@/shared/Layout/Layout";
-import {BackgroundImage} from "@/shared/BackgroundImage/BackgroundImage";
+import {Layout} from "@/components/Layout/Layout";
+import {BackgroundImage} from "@/components/BackgroundImage/BackgroundImage";
 
 const Home = () => (
     <>

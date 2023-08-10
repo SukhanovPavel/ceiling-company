@@ -1,6 +1,6 @@
-import {PageHeader} from "@/shared/PageHeader/PageHeader";
-import {DynamicHeader} from "@/shared/DynamicHeader/DynamicHeader";
-import {Calculator} from "@/shared/Calculator/Calculator";
+import {PageHeader} from "@/components/PageHeader/PageHeader";
+import {DynamicHeader} from "@/components/DynamicHeader/DynamicHeader";
+import {Calculator} from "@/components/Calculator/Calculator";
 import {useState} from "react";
 
 type Props = {

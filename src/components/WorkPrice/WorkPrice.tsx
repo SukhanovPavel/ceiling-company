@@ -28,6 +28,7 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
     const SlideThree = slide === servicesMap.length-2 ?
         servicesMap[0] : slide === servicesMap.length-1 ? servicesMap[1] : servicesMap[slide+2];
 
+    let p = '-1000px';
     return (
         <div className={styles._}>
             {titleH2 ? <h2>{titleH2}</h2> : null}
@@ -143,7 +144,6 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                     </Link>
                   </div>)
                 }
-
 
             </div>
             {allServicesButton ? <Link href="/services"><button className={styles.button}>Смотреть все услуги</button></Link> : null}

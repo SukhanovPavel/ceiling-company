@@ -1,4 +1,4 @@
-import { Layout } from "@/shared/Layout/Layout";
+import { Layout } from "@/components/Layout/Layout";
 import Head from "next/head";
 
 const data = [
