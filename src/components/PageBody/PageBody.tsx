@@ -8,9 +8,9 @@ type Props = {
     img: string;
     title: string;
     description: string;
-  }
+  }[]
 }
-export const PageBody = ({data}: Props[]) => {
+export const PageBody = ({data}: Props) => {
   return (
     <div className={styles._}>
       {
