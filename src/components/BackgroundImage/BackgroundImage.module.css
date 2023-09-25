@@ -14,11 +14,72 @@
     gap: 2rem;
 }
 .topDesc {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+}
+.widgLeft {
+    cursor: pointer;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 1.5rem;
+    background: rgb(243,22,143);
+    background: linear-gradient(117deg, rgba(243,22,143,1) 1%, rgba(243,22,29,1) 50%, rgba(202,52,249,1) 75%, rgba(255,200,74,1) 100%);
+    left: 3rem;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.9;
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+}
+.widgRight {
+    cursor: pointer;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    border-radius: 1.5rem;
+    background: rgb(22,177,243);
+    background: linear-gradient(117deg, rgba(22,177,243,1) 9%, rgba(243,22,29,1) 36%, rgba(202,52,249,1) 71%, rgba(255,200,74,1) 95%);
+    right: 3rem;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.9;
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+}
+.widgRight:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.widgLeft:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.mobileWidg {
+    display: none;
+}
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
 }
 .title {
     font-size: 2rem;
@@ -87,6 +148,27 @@
         padding: 1rem;
         margin-top: 7rem;
         gap: 0;
+    }
+    .widgRight {
+        display: none;
+    }
+    .widgLeft {
+        display: none;
+    }
+    .mobileWidg {
+        width: 100%;
+        height: 3rem;
+        border-radius: 1rem;
+        background: rgb(22,177,243);
+        background: linear-gradient(117deg, rgba(22,177,243,1) 9%, rgba(243,22,29,1) 36%, rgba(202,52,249,1) 71%, rgba(255,200,74,1) 95%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: bold;
+        opacity: 0.9;
+        animation: gradient 10s infinite linear;
+        background-size: 400%;
     }
     .topWrap {
         flex-direction: column;

@@ -91,3 +91,12 @@
         left: calc(50% - 10rem);
     }
 }
+@media  (prefers-color-scheme: dark) {
+    .popUp {
+        background: black;
+    }
+    .input input {
+        color: black;
+        padding-left: 1rem;
+    }
+}

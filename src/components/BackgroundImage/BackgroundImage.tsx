@@ -8,6 +8,8 @@ import { PageBody } from "@/components/PageBody/PageBody";
 import { dataCeilings } from "@/assets/mocks/ceilingsPageData";
 import { DescriptionList } from "@/components/DescriptionList/DescriptionList";
 import { Form } from "@/components/Form/Form";
+import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 const servicesMap = WorksPrice;
 
@@ -23,6 +25,20 @@ export const BackgroundImage = ({
     <div className={styles._}>
 
         <div className={styles.topDesc}>
+
+          <Link href='/actions/gift'>
+            <div className={styles.widgLeft}>Акция! Потолок в подарок!</div>
+          </Link>
+          <Link href='/actions/sale'>
+            <div className={styles.widgRight}>15% скидка всем подписчикам!</div>
+          </Link>
+          <Link href="/actions"  className={styles.mobileWidg}>
+            <Marquee>
+              Акция! Потолок в подарок нашему подписчику в нашей группе
+              Вконтакте! Также 15% скидка всем подписчикам группы до 10 октября
+            </Marquee>
+          </Link>
+
             <img
                 id="logoMain"
                 className={styles.logo}
@@ -33,7 +49,7 @@ export const BackgroundImage = ({
                 <h2>ДЕЛАЕМ НАТЯЖНЫЕ ПОТОЛКИ</h2>
                 <p>ЧИСТЫМИ РУКАМИ С ЧИСТОЙ СОВЕСТЬЮ</p>
             </div>
-            <Form handleCloseModal={()=>{}} notFocus    />
+            <Form handleCloseModal={()=>{}} notFocus />
         </div>
 
         {/*<CeilingSets handleClick={() => {}} />*/}

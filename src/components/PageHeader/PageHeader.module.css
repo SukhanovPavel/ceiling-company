@@ -29,7 +29,18 @@
     left: 1rem;
     /*top: 1rem;*/
 }
-
+.vkIcon {
+    position: absolute;
+    top: 0.5rem;
+    right: 11rem;
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+}
+.vkIcon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 .phoneNumber {
     color: lightgray;
     position: fixed;

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
 import styles from "./DynamicHeader.module.css";
 
@@ -15,6 +16,7 @@ type Props = {
 export const DynamicHeader = ({ data, title, modal, openModal }: Props) => (
   <>
     <nav className={styles.nav}>
+
       <div className={styles.navLinks}>
         {title ? <h3>{title}</h3> : null}
         {data ? Array.isArray(data) && data.map(link => (

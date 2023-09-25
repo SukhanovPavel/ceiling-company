@@ -90,7 +90,7 @@ export const Form = (
                     autoFocus={notFocus ? false : true}
                     value={formName.replace(/[^\D]/g, "")}
                     onChange={({target:{value}}) => setFormName(value)}
-                    placeholder="  Имя"
+                    placeholder="Имя"
                     type="text"
                     title="Имя рсскими буквами"
                 />
@@ -102,7 +102,7 @@ export const Form = (
                     // className={styles.borderBlue}
                     value={formNumber.replace(/[^\d]/g, "")}
                     onChange={({target:{value}}) => setFormNumber(value) }
-                    placeholder="  Телефон"
+                    placeholder="Телефон"
                     title="phone"
                     type="text"
                     onKeyUp={formNumber ?
