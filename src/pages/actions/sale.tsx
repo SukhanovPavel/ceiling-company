@@ -4,7 +4,7 @@ import { dataHome } from "@/assets/mocks/homePageData";
 import { ProductPage } from "@/components/ProductPage/ProductPage";
 
 const actionData = {
-  title: "Скидка 15% на натяжные потолки до 10 октября 2023 года",
+  title: "Скидка 15% на натяжные потолки нашим подписчикам",
     description:"Скидка действует для всех подписчиков нашего сообщества Вконтакте",
     priority:
     {
@@ -15,6 +15,7 @@ const actionData = {
         "Ваш аккаунт должен быть живым, с фото и друзьями!.",
         " Не допускаются конкурсные аккаунты. Если более 10% из последних 50 постов являются розыгрышами, то такие " +
         "аккаунты приложение считает конкурсными.Организатор вправе провести повторный розыгрыш приза.",
+        "акция проводится до 10 октября 2023 года"
       ],
     },
   image: "/action152.png"
@@ -29,6 +30,7 @@ const Sale = () => {
         title={actionData.title}
         description={actionData.description}
         priority={actionData.priority}
+        linkVK
       />
     </div>
   );

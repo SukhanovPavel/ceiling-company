@@ -15,11 +15,21 @@
     gap: 5rem;
     transition: 0.5s;
 }
-/*.item:hover {*/
-/*    transform: scale(1.1);*/
-/*    border: solid 1px whitesmoke;*/
-/*}*/
-
+.vkIcon {
+    fill: lightskyblue;
+    width: 2rem;
+    height: 2rem;
+}
+.vkIcon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    fill: deepskyblue;
+}
+.title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
 .img {
     width: 40%;
     max-height: 80vh;
@@ -44,5 +54,10 @@
     }
     .img {
         width: 100%;
+    }
+    .vkIcon {
+        width: 3rem;
+        height: 3rem;
+        fill: deepskyblue;
     }
 }

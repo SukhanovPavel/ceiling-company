@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/worksPrice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/worksPrice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions/gift.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions/gift.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions/sale.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions/sale.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,7 @@
       <workItem from="1685131365734" duration="65000" />
       <workItem from="1690310137492" duration="58083000" />
       <workItem from="1691410091960" duration="23873000" />
-      <workItem from="1695243897989" duration="19020000" />
+      <workItem from="1695243897989" duration="22349000" />
     </task>
     <servers />
   </component>
