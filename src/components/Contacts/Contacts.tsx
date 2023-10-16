@@ -23,7 +23,8 @@ export const Contacts = ({handleClick}: Props) => (
         </div>
         <div className={styles.phones}>
           <div>Режим работы:</div>
-          <div>Пн-пт: 9:00-18:00</div>
+          <div>Пн-пт: 8:00-18:00</div>
+          <div>Сб: 9:00-16:00</div>
         </div>
         <div>
           <div>Email:</div>

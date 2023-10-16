@@ -26,18 +26,18 @@ export const BackgroundImage = ({
 
         <div className={styles.topDesc}>
 
-          <Link href='/actions/gift'>
-            <div className={styles.widgLeft}>Акция! Потолок в подарок!</div>
-          </Link>
-          <Link href='/actions/sale'>
-            <div className={styles.widgRight}>15% скидка всем подписчикам!</div>
-          </Link>
-          <Link href="/actions"  className={styles.mobileWidg}>
-            <Marquee>
-              Акция! Потолок в подарок нашему подписчику в нашей группе
-              Вконтакте! Также 15% скидка всем подписчикам группы до 10 октября
-            </Marquee>
-          </Link>
+          {/*<Link href='/actions/gift'>*/}
+          {/*  <div className={styles.widgLeft}>Акция! Потолок в подарок!</div>*/}
+          {/*</Link>*/}
+          {/*<Link href='/actions/sale'>*/}
+          {/*  <div className={styles.widgRight}>15% скидка всем подписчикам!</div>*/}
+          {/*</Link>*/}
+          {/*<Link href="/actions"  className={styles.mobileWidg}>*/}
+          {/*  <Marquee>*/}
+          {/*    Акция! Потолок в подарок нашему подписчику в нашей группе*/}
+          {/*    Вконтакте! Также 15% скидка всем подписчикам группы до 10 октября*/}
+          {/*  </Marquee>*/}
+          {/*</Link>*/}
 
             <img
                 id="logoMain"
