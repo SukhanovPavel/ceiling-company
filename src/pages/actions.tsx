@@ -30,7 +30,7 @@ const Actions = () => (
         <link rel="icon" href="/logoTop.png" />
       </Head>
       <Layout data={dataHome}/>
-      <PhotoFeed data={actionsData} />
+      {/*<PhotoFeed data={actionsData} />*/}
     </>
 )
 

@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions/gift.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions/gift.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions/sale.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions/sale.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1691410091960" duration="23873000" />
       <workItem from="1695243897989" duration="23486000" />
       <workItem from="1695985388378" duration="6251000" />
-      <workItem from="1696653023802" duration="613000" />
+      <workItem from="1696653023802" duration="1217000" />
     </task>
     <servers />
   </component>
