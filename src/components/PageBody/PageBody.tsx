@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import styles from "./PageBody.module.css";
+import Image from "next/image";
 
 type Props = {
   data: {
@@ -21,6 +22,12 @@ export const PageBody = ({data}: Props) => {
             src={item.img}
             alt="vysota"
           />
+          {/*<Image*/}
+          {/*  className={styles.img}*/}
+          {/*  src={item.img}*/}
+          {/*  fill*/}
+          {/*  alt="vysota"*/}
+          {/*/>*/}
           <h3>{item.title}</h3>
           <p>{item.description}</p>
         </Link>)

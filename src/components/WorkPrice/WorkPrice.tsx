@@ -37,9 +37,14 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
                 {servicesMap.map( item =>
                   <div key={item.title} className={styles.service}>
                     <div className={styles.imgContainer}>
-                        <Image
+                        {/*<Image*/}
+                        {/*  alt="vysota"*/}
+                        {/*  fill*/}
+                        {/*  className={styles.img}*/}
+                        {/*  src={item.img}*/}
+                        {/*/>*/}
+                        <img
                           alt="vysota"
-                          fill
                           className={styles.img}
                           src={item.img}
                         />

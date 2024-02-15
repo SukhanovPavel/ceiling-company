@@ -12,6 +12,8 @@
     border-radius: 2rem;
     min-width: 19rem;
     width: 23%;
+    position: relative;
+    /*height: min-content;*/
     height: auto;
     padding: 1rem;
     flex-direction: column;

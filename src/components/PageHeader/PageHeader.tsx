@@ -46,6 +46,7 @@ export const PageHeader = () => {
 
           <Link href="/" className={styles.link}>Главная</Link>
           <Link href="/ceilings" className={styles.link}>Потолки</Link>
+          <Link href="/walls" className={styles.link}>Тихие стены</Link>
           <Link href="/windows" className={styles.link}>Окна</Link>
           <Link href="/blinds" className={styles.link}>Жалюзи</Link>
           {/*<Link href="/forDillers" className={styles.link}>Диллерам</Link>*/}

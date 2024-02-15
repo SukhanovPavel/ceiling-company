@@ -40,13 +40,13 @@ export const dataCeilings  = {
         },
         {
             link: "/ceilings/photoPrint",
-            img: "https://studio-np.ru/upload/resize_cache/iblock/f5e/1024_600_1ae3416b702594ae4e53264b6f418921b/potolok_s_fotopechatyu_v_spalnyu_12_m.jpg",
+            img: "/photoPrint.jpeg",
             title: "Фотопечать",
             description: "Стоимость - от 1400р"
         },
         {
             link: "/ceilings/twoLevel",
-            img: "https://mykaleidoscope.ru/uploads/posts/2020-02/1581100299_37-p-krasivii-dizain-potolkov-63.jpg",
+            img: "/twoLevel.JPG",
             title: "Двухуровневые потолки",
             description: "Стоимость - от 1500р"
         },

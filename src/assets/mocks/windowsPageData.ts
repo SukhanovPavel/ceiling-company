@@ -28,37 +28,37 @@ export const dataWindows  = {
   data: [
     {
       link: "/windows/lite60",
-      img: "windows/lite60.png",
+      img: "/windows/lite60.png",
       title: "Melke Lite 60",
       description: "Подробнее >"
     },
     {
       link: "/windows/lite70",
-      img: "windows/lite70.png",
+      img: "/windows/lite70.png",
       title: "Melke Lite 70",
       description: "Подробнее >"
     },
     {
       link: "/windows/evo",
-      img: "windows/evo.png",
+      img: "/windows/evo.png",
       title: "Melke Evolution",
       description: "Подробнее >"
     },
     {
       link: "/windows/art",
-      img: "windows/art.png",
+      img: "/windows/art.png",
       title: "Melke ART",
       description: "Подробнее >"
     },
     {
       link: "/windows/smart",
-      img: "windows/smart.png",
+      img: "/windows/smart.png",
       title: "Melke Smart",
       description: "Подробнее >"
     },
     {
       link: "/windows/lamination",
-      img: "windows/lamination.jpeg",
+      img: "/windows/lamination.jpeg",
       title: "Ламинированные окна",
       description: "Подробнее >"
     },

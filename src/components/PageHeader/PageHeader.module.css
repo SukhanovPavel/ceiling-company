@@ -141,7 +141,7 @@
         fill: whitesmoke;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 860px) {
     ._ {
         background: rgba(0,0,0,0.7);
         height: 3.2rem;

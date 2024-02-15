@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/actions/gift.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions/gift.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/actions/sale.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions/sale.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/ceilingsPageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/ceilingsPageData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/windowsPageData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/windowsPageData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageBody/PageBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +73,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/public/walls" />
       <recent name="$PROJECT_DIR$/public/windows" />
       <recent name="$PROJECT_DIR$/matte" />
-      <recent name="$PROJECT_DIR$/public/icons" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,21 +99,14 @@
       <workItem from="1691410091960" duration="23873000" />
       <workItem from="1695243897989" duration="23486000" />
       <workItem from="1695985388378" duration="6251000" />
-      <workItem from="1696653023802" duration="1217000" />
+      <workItem from="1696653023802" duration="2026000" />
+      <workItem from="1703842682859" duration="3364000" />
+      <workItem from="1704477636972" duration="8022000" />
+      <workItem from="1707285832524" duration="5055000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/index.tsx</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
