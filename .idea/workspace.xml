@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/ceilingsPageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/ceilingsPageData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/windowsPageData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/windowsPageData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageBody/PageBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +88,7 @@
       <workItem from="1696653023802" duration="2026000" />
       <workItem from="1703842682859" duration="3364000" />
       <workItem from="1704477636972" duration="8022000" />
-      <workItem from="1707285832524" duration="5055000" />
+      <workItem from="1707285832524" duration="5381000" />
     </task>
     <servers />
   </component>
