@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/walls.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/walls.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,11 +89,23 @@
       <workItem from="1703842682859" duration="3364000" />
       <workItem from="1704477636972" duration="8022000" />
       <workItem from="1707285832524" duration="5694000" />
-      <workItem from="1707983506573" duration="1686000" />
+      <workItem from="1707983506573" duration="2191000" />
     </task>
+    <task id="LOCAL-00001" summary="add pdf">
+      <created>1708070459221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708070459221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pdf" />
   </component>
 </project>
