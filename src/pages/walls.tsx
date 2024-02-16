@@ -1,9 +1,11 @@
 import Head from 'next/head';
-import {dataHome} from "@/assets/mocks/homePageData";
 import {Layout} from "@/components/Layout/Layout";
-import {BackgroundImage} from "@/components/BackgroundImage/BackgroundImage";
-import { ProductPage } from "@/components/ProductPage/ProductPage";
 import { WallsContent } from "@/components/WallsContent/WallsContent";
+
+const data = [{
+    link: "/walls/wallsPdf",
+    description: "Презентация"
+  }];
 
 const Home = () => (
   <>
@@ -13,7 +15,7 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/logoTop.png" />
     </Head>
-    <Layout />
+    <Layout data={data} />
     <WallsContent />
   </>
 );

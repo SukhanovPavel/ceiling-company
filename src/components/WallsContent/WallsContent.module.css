@@ -18,6 +18,7 @@
 .pdf {
     width: 100%;
     height: auto;
+    min-height: 100vh;
 }
 .pdfFile {
     object-fit: fill;
@@ -44,6 +45,11 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.backLink {
+    height: 3rem;
+    background: black;
+    width: 100%;
 }
 
 @media screen and (max-width: 980px) {

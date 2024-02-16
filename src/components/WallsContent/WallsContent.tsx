@@ -17,12 +17,13 @@ const priority = [
 export const WallsContent = () => {
   return (
       <div className={styles._}>
-        <object className={styles.pdf}>
-          <embed
-            src="/walls-3-21.pdf#view=FitH"
-            className={styles.pdfFile}
-          />
-        </object>
+        {/*<object className={styles.pdf}>*/}
+        {/*  <embed*/}
+        {/*    src="/walls-3-21.pdf#view=FitH"*/}
+        {/*    className={styles.pdfFile}*/}
+        {/*  />*/}
+        {/*</object>*/}
+        {/*<iframe src="/walls-3-21.pdf#view=FitH" className={styles.pdf}/>*/}
         <div  className={styles.item}>
           {/*<video*/}
           {/*  className={styles.video}*/}
