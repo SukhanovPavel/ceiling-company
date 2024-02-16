@@ -1,6 +1,6 @@
 ._ {
-    margin: 4rem 0.5rem;
-    padding: 1rem;
+    margin: 2rem 0.5rem;
+    /*padding: 1rem;*/
 }
 .item {
     display: flex;
@@ -16,6 +16,7 @@
     transition: 0.5s;
 }
 .pdf {
+    display: block;
     width: 100%;
     height: auto;
     min-height: 100vh;
@@ -47,9 +48,7 @@
     gap: 1rem;
 }
 .backLink {
-    height: 3rem;
-    background: black;
-    width: 100%;
+    display: none;
 }
 
 @media screen and (max-width: 980px) {
@@ -70,6 +69,17 @@
         width: 3rem;
         height: 3rem;
         fill: deepskyblue;
+    }
+    .backLink {
+        display: block;
+        height: 3rem;
+        background: black;
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .pdf {
+        display: none;
     }
 }
 

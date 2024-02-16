@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf" />
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WallsContent/WallsContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/walls.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/walls.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/walls/wallsPdf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/walls/wallsPdf.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +95,7 @@
       <workItem from="1703842682859" duration="3364000" />
       <workItem from="1704477636972" duration="8022000" />
       <workItem from="1707285832524" duration="5694000" />
-      <workItem from="1707983506573" duration="2191000" />
+      <workItem from="1707983506573" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>

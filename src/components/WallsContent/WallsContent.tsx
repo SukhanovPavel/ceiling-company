@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./WallsContent.module.css";
+import Link from "next/link";
 
 const priority = [
   "технологичный, быстрый и чистый монтаж ",
@@ -17,21 +18,11 @@ const priority = [
 export const WallsContent = () => {
   return (
       <div className={styles._}>
-        {/*<object className={styles.pdf}>*/}
-        {/*  <embed*/}
-        {/*    src="/walls-3-21.pdf#view=FitH"*/}
-        {/*    className={styles.pdfFile}*/}
-        {/*  />*/}
-        {/*</object>*/}
-        {/*<iframe src="/walls-3-21.pdf#view=FitH" className={styles.pdf}/>*/}
+        <Link href="/walls-3-21.pdf#view=FitH">
+          <button className={styles.backLink}>Презентация</button>
+        </Link>
+        <iframe src="/walls-3-21.pdf#view=FitH" className={styles.pdf}/>
         <div  className={styles.item}>
-          {/*<video*/}
-          {/*  className={styles.video}*/}
-          {/*>*/}
-          {/*  <source src="/walls/video.MP4" type="video/mp4" />*/}
-          {/*  <a href="/walls/video.MP4">video</a>*/}
-          {/*</video>*/}
-
           <div className={styles.videoCont}>
             <video className={styles.video} width="750" height="500" controls>
               <source src="/walls/video.MP4" type="video/mp4" />

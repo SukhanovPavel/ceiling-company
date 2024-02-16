@@ -2,11 +2,6 @@ import Head from 'next/head';
 import {Layout} from "@/components/Layout/Layout";
 import { WallsContent } from "@/components/WallsContent/WallsContent";
 
-const data = [{
-    link: "/walls/wallsPdf",
-    description: "Презентация"
-  }];
-
 const Home = () => (
   <>
     <Head>
@@ -15,7 +10,7 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/logoTop.png" />
     </Head>
-    <Layout data={data} />
+    <Layout/>
     <WallsContent />
   </>
 );
