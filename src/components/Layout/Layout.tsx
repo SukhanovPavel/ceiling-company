@@ -3,6 +3,8 @@ import {DynamicHeader} from "@/components/DynamicHeader/DynamicHeader";
 import {Calculator} from "@/components/Calculator/Calculator";
 import {useState} from "react";
 
+import styles from "./Layout.module.css";
+
 type Props = {
   data?: {
     link: string;
@@ -18,10 +20,10 @@ export const Layout = ({data, title}: Props) => {
     const [calc, openCalc] = useState(false);
 
     return (
-        <>
+        <div className={styles._}>
             <PageHeader />
             {data && <DynamicHeader data={data} title={title} modal={modal} openModal={() => openModal(true)} />}
             {calc ? <Calculator handleСloseCalc={() => openCalc(false)}/> : null}
-        </>
+        </div>
     )
 }

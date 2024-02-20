@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf" />
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DynamicHeader/DynamicHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +98,7 @@
       <workItem from="1703842682859" duration="3364000" />
       <workItem from="1704477636972" duration="8022000" />
       <workItem from="1707285832524" duration="5694000" />
-      <workItem from="1707983506573" duration="4377000" />
+      <workItem from="1707983506573" duration="18573000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>

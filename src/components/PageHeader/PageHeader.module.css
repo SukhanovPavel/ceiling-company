@@ -19,6 +19,30 @@
     color: lightgray;
     text-decoration: none;
 }
+.wallsLink {
+    /*content: url("/new.png");*/
+    position: relative;
+}
+.wallsLink svg {
+    position: absolute;
+    right: -1.5rem;
+    top: -0.6rem;
+    fill: #d72c2c;
+    z-index: -1;
+}
+.wallsLink:hover svg {
+    fill: red;
+    transform: scale(1.1);
+}
+.wallsLink p {
+    color: white;
+    z-index: 1;
+    font-size: 0.6rem;
+    position: absolute;
+    right: -1.3rem;
+    top: 0;
+    transform: rotate(25deg);
+}
 .link:hover {
     color: white;
 }
