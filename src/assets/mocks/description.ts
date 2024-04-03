@@ -108,7 +108,7 @@ export const description = {
                             " Все это позволяет воплощать в реальность самые смелые дизайнерские фантазии."
                         ]
                 },
-            image: "https://potolkivrn.ru/upload/iblock/543/8cedhsd2npplztz5zctn5n3zhlp7uh34.jpg"
+            image: "https://unipack-ug.ru/800/600/https/tyumen.alyans-potolok.ru/uploads/img/35_1.jpg"
         },
         cloth: {
             title: "Тканевые натяжные потолки",
