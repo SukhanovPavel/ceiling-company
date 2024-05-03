@@ -46,16 +46,16 @@
 /*    --background-start-rgb: 0, 0, 0;*/
 /*    --background-end-rgb: 0, 0, 0;*/
 
-/*    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));*/
+/*    --primary-glow: radial-gradient(rgba(1.jpg, 65, 255, 0.4), rgba(1.jpg, 65, 255, 0));*/
 /*    --secondary-glow: linear-gradient(*/
 /*      to bottom right,*/
-/*      rgba(1, 65, 255, 0),*/
-/*      rgba(1, 65, 255, 0),*/
-/*      rgba(1, 65, 255, 0.3)*/
+/*      rgba(1.jpg, 65, 255, 0),*/
+/*      rgba(1.jpg, 65, 255, 0),*/
+/*      rgba(1.jpg, 65, 255, 0.3)*/
 /*    );*/
 
-/*    --tile-start-rgb: 2, 13, 46;*/
-/*    --tile-end-rgb: 2, 5, 19;*/
+/*    --tile-start-rgb: 2.jpg, 13, 46;*/
+/*    --tile-end-rgb: 2.jpg, 5, 19;*/
 /*    --tile-border: conic-gradient(*/
 /*      #ffffff80,*/
 /*      #ffffff40,*/
@@ -106,8 +106,9 @@ body {
   /*    rgb(var(--background-end-rgb))*/
   /*  )*/
   /*  rgb(var(--background-start-rgb));*/
-
+  /*color: white;*/
   background-image: url("/vysota3.jpeg");
+  /*background: black;*/
   background-size: 100% 100vh;
   background-repeat: no-repeat;
 }
@@ -153,13 +154,16 @@ svg {
 @media screen and (max-width: 860px) {
   body {
     background-size: auto auto;
+    background-image: none;
+    color: black;
+    /*background: black;*/
     /*background-image: none;*/
     /*background-color: linear-gradient(*/
-  /*    to bottom,*/
-      /*    transparent,*/
-      /*    rgb(var(--background-end-rgb))*/
-      /*  )*/
-      /*  rgb(var(--background-start-rgb));*/
+    /*  to bottom,*/
+    /*      transparent,*/
+    /*      rgb(var(--background-end-rgb))*/
+    /*    )*/
+    /*    rgb(var(--background-start-rgb));*/
   }
 
 }

@@ -24,9 +24,9 @@ export const WorkPrice = ({servicesMap, titleH2, allServicesButton}: Props) => {
 
     const [slide, setSlide] = useState(0);
     // const Slide = servicesMap[slide];
-    // const SlideTwo = slide === servicesMap.length-1 ? servicesMap[0] : servicesMap[slide+1];
-    // const SlideThree = slide === servicesMap.length-2 ?
-    //     servicesMap[0] : slide === servicesMap.length-1 ? servicesMap[1] : servicesMap[slide+2];
+    // const SlideTwo = slide === servicesMap.length-1.jpg ? servicesMap[0] : servicesMap[slide+1.jpg];
+    // const SlideThree = slide === servicesMap.length-2.jpg ?
+    //     servicesMap[0] : slide === servicesMap.length-1.jpg ? servicesMap[1.jpg] : servicesMap[slide+2.jpg];
     //
     // let p = '-1000px';
     return (

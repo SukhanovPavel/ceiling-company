@@ -85,11 +85,11 @@
 .title {
     font-size: 2rem;
     text-align: center;
-    color: white;
+    /*color: white;*/
 }
 .logo {
     width: 20%;
-    filter: invert(1);
+    /*filter: invert(1);*/
 }
 .text {
     height: 100%;

@@ -188,6 +188,10 @@
         right: 0;
         animation: 0.4s menu;
     }
+
+    .vkIcon {
+        position: static;
+    }
     @keyframes menu {
         from {
             margin-bottom: -200%;
@@ -202,14 +206,19 @@
         right: 0;
         bottom: 0;
         width: 4rem;
-        height: 4rem;
         background: rgba(0,0,0,0.8);
         display: flex;
+        flex-direction: column;
         align-items: center;
+        padding: 1rem 0.5rem;
+        gap: 1rem;
         justify-content: center;
         border-radius: 1rem;
     }
     .burger {
+        position: fixed;
+        right: 0;
+        top: 0.6rem;
         background: none;
         border: none;
         display: flex;
@@ -276,18 +285,18 @@
     .phoneIcon {
         fill: whitesmoke;
     }
-    .footerMenu {
-        position: fixed;
-        /*left: 0;*/
-        right: 0;
-        bottom: 0;
-        /*width: 4rem;*/
-        height: 4rem;
-        background: rgba(0,0,0,0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    /*.footerMenu {*/
+    /*    position: fixed;*/
+    /*    !*left: 0;*!*/
+    /*    right: 0;*/
+    /*    bottom: 0;*/
+    /*    !*width: 4rem;*!*/
+    /*    height: 4rem;*/
+    /*    background: rgba(0,0,0,0.8);*/
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    /*    justify-content: center;*/
+    /*}*/
     .burger {
         background: none;
         border: none;
@@ -330,8 +339,8 @@
         display: block;
         background: none;
         fill: white;
-        position: absolute;
-        right: 0;
-        top: 0.5rem;
+        /*position: absolute;*/
+        /*right: 0;*/
+        /*top: 0.5rem;*/
     }
 }

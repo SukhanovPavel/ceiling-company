@@ -9,7 +9,7 @@
 .item {
     display: flex;
     margin: 0 auto;
-    background: lightgrey;
+    background: rgb(200, 200, 200, 0.4);
     border-radius: 2rem;
     min-width: 19rem;
     width: 23%;

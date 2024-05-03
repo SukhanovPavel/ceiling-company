@@ -5,16 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf">
-      <change afterPath="$PROJECT_DIR$/src/pages/galery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/mocks/description.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/description.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/accessories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/horizontal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/plisse.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rimsky.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rulonny.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/vertical.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blinds/zebra.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/cloth.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/lightLine.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/matte.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/photoPrint.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/soaring.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/twoLevel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/forDillers.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/galery.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ourWorks.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/reviews.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/walls.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/art.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/evo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/lamination.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite60.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite70.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/windows/smart.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,26 +77,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/pavelsuhanov/dev/ceiling-company",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/prettier",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "ts.external.directory.path": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -70,8 +104,8 @@
       <recent name="$PROJECT_DIR$/src/pages/windows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public/walls" />
       <recent name="$PROJECT_DIR$/public/windows" />
@@ -115,7 +149,8 @@
       <workItem from="1707285832524" duration="5694000" />
       <workItem from="1707983506573" duration="24944000" />
       <workItem from="1710479653568" duration="3523000" />
-      <workItem from="1710914320919" duration="9519000" />
+      <workItem from="1710914320919" duration="10216000" />
+      <workItem from="1714717042712" duration="9407000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>
