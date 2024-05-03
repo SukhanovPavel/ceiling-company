@@ -4,53 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add pdf">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/description.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/description.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/homePageData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageBody/PageBody.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader/PageHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPrice/WorkPrice.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/accessories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/horizontal.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/plisse.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rimsky.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/rulonny.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/vertical.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blinds/zebra.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/cloth.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/lightLine.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/matte.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/photoPrint.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/soaring.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ceilings/twoLevel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contacts.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/forDillers.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/galery.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ourWorks.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/reviews.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/walls.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/art.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/evo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/lamination.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite60.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/lite70.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/windows/smart.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-    </list>
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add galery images | edit styles" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +104,7 @@
       <workItem from="1707983506573" duration="24944000" />
       <workItem from="1710479653568" duration="3523000" />
       <workItem from="1710914320919" duration="10216000" />
-      <workItem from="1714717042712" duration="9407000" />
+      <workItem from="1714717042712" duration="9759000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>
@@ -159,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708070459221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add galery images | edit styles">
+      <created>1714743733525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714743733525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pdf" />
+    <MESSAGE value="add galery images | edit styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add galery images | edit styles" />
   </component>
 </project>
