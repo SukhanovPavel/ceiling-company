@@ -13,6 +13,7 @@ const Home = () => (
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logoTop.png" />
         <link rel="canonical"/>
+        <meta name="yandex-verification" content="df035aa94bb5ac31" />
       </Head>
       <Layout data={dataHome} />
       <BackgroundImage alt="homePage" src="https://www.luxe-potolok.ru/o/primer/v-studiyu-2.jpg" />
