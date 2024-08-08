@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add galery images | edit styles">
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="fix styles | add yandex webmaster">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductPage/ProductPage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +33,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/pavelsuhanov/dev/ceiling-company/public/actions",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/eslint",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/prettier",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "ts.external.directory.path": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/eslint&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/actions" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/actions" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/pages/windows" />
     </key>
@@ -111,6 +108,8 @@
       <workItem from="1710479653568" duration="3523000" />
       <workItem from="1710914320919" duration="10216000" />
       <workItem from="1714717042712" duration="17514000" />
+      <workItem from="1716385335534" duration="1009000" />
+      <workItem from="1723041163761" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>
@@ -133,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714743867742</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix styles | add yandex webmaster">
+      <created>1716385444396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716385444396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add pdf" />
     <MESSAGE value="add galery images | edit styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add galery images | edit styles" />
+    <MESSAGE value="fix styles | add yandex webmaster" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix styles | add yandex webmaster" />
   </component>
 </project>
