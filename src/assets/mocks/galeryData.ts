@@ -484,4 +484,159 @@ export const galery = [
     width: "1024",
     height: "768"
   },
+  {
+    path: "/galery/86.jpeg",
+    width: "768",
+    height: "1024"
+  },
+  {
+    path: "/galery/87.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/88.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/89.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/90.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/91.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/92.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/93.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/94.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/95.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/96.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/97.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/98.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/99.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/100.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/101.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/102.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/103.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/104.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/105.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/106.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/107.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/108.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/109.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/110.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/111.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/112.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/113.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/114.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/115.jpeg",
+    width: "1024",
+    height: "768"
+  },
+  {
+    path: "/galery/116.jpeg",
+    width: "1024",
+    height: "768"
+  },
 ];
