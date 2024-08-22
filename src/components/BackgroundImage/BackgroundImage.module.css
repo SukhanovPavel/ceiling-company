@@ -21,6 +21,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    background: rgb(220, 220, 220, 0.4);
 }
 .widgLeft {
     cursor: pointer;

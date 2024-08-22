@@ -4,40 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="fix styles | add yandex webmaster">
-      <change afterPath="$PROJECT_DIR$/public/galery/100.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/101.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/102.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/103.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/104.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/105.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/106.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/107.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/108.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/109.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/110.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/111.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/112.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/113.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/114.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/115.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/116.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/86.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/87.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/88.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/89.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/90.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/91.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/92.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/93.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/94.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/95.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/96.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/97.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/98.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/galery/99.jpeg" afterDir="false" />
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add new photo on gallery">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/mocks/galeryData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/galeryData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +112,7 @@
       <workItem from="1714717042712" duration="17514000" />
       <workItem from="1716385335534" duration="1009000" />
       <workItem from="1723041163761" duration="94000" />
-      <workItem from="1723115910781" duration="1531000" />
+      <workItem from="1723115910781" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>
@@ -172,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716385444396</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new photo on gallery">
+      <created>1724311876345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724311876345</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +170,7 @@
     <MESSAGE value="add pdf" />
     <MESSAGE value="add galery images | edit styles" />
     <MESSAGE value="fix styles | add yandex webmaster" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix styles | add yandex webmaster" />
+    <MESSAGE value="add new photo on gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new photo on gallery" />
   </component>
 </project>
