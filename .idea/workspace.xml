@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="add new photo on gallery">
+    <list default="true" id="a2799309-9fbb-4ccf-9858-681553a93984" name="Changes" comment="edit index bg style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BackgroundImage/BackgroundImage.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/ceilingsPageData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/ceilingsPageData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/mocks/description.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/mocks/description.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,31 +34,40 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2LvJwV4CWjHEVf8UzwQ7G8t7uhm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/pavelsuhanov/dev/ceiling-company/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "last_opened_file_path": "/Users/pavelsuhanov/dev/ceiling-company",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/prettier",
+    "settings.editor.selected.configurable": "CodeWithMe",
+    "ts.external.directory.path": "/Users/pavelsuhanov/dev/ceiling-company/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -63,14 +76,17 @@
       <recent name="$PROJECT_DIR$/src/pages/windows" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/galery" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/galery" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public/walls" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -81,6 +97,13 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +135,8 @@
       <workItem from="1714717042712" duration="17514000" />
       <workItem from="1716385335534" duration="1009000" />
       <workItem from="1723041163761" duration="94000" />
-      <workItem from="1723115910781" duration="2200000" />
+      <workItem from="1723115910781" duration="4525000" />
+      <workItem from="1770386619617" duration="1871000" />
     </task>
     <task id="LOCAL-00001" summary="add pdf">
       <created>1708070459221</created>
@@ -149,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724311876345</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit index bg style">
+      <created>1724312378986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724312378986</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +202,7 @@
     <MESSAGE value="add galery images | edit styles" />
     <MESSAGE value="fix styles | add yandex webmaster" />
     <MESSAGE value="add new photo on gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new photo on gallery" />
+    <MESSAGE value="edit index bg style" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit index bg style" />
   </component>
 </project>

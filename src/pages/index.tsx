@@ -16,7 +16,7 @@ const Home = () => (
         <meta name="yandex-verification" content="df035aa94bb5ac31" />
       </Head>
       <Layout data={dataHome} />
-      <BackgroundImage alt="homePage" src="https://www.luxe-potolok.ru/o/primer/v-studiyu-2.jpg" />
+      <BackgroundImage alt="homePage" src="./potolok.jpg" />
     </div>
 );
 

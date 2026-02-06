@@ -159,7 +159,7 @@ export const description = {
                         "Потеря высоты потолка в случае использования металлоконструкций составит не более 10-11 см."
                     ]
                 },
-            image: "http://almode.ru/uploads/posts/2021-07/1625132928_29-almode_ru-p-dvukhurovnevii-potolok-volna-32.jpg"
+            image: "./twoLevel.jpg"
         },
         photoPrint: {
             title: "Фотопечать на натяжных потолках",
