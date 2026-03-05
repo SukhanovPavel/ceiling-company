@@ -107,7 +107,8 @@ body {
   /*  )*/
   /*  rgb(var(--background-start-rgb));*/
   /*color: white;*/
-  background-image: url("/vysota3.jpeg");
+  /*background-image: url("/vysota.png");*/
+  /*background-image: url("/vysota3.jpeg");*/
   /*background: black;*/
   background-size: 100% 100vh;
   background-repeat: no-repeat;
@@ -124,22 +125,22 @@ input {
   border: none;
 }
 
-button {
-  border: none;
-  padding: 0 1rem;
-  transition: 450ms;
-  cursor: pointer;
-  height: 2.5rem;
-  border-radius: 1rem;
-  color: white;
-  font-weight: bold;
-  /*background: #d57787;*/
-  background: indianred;
-}
+/*button {*/
+/*  border: none;*/
+/*  padding: 0 1rem;*/
+/*  transition: 450ms;*/
+/*  cursor: pointer;*/
+/*  height: 2.5rem;*/
+/*  border-radius: 1rem;*/
+/*  color: white;*/
+/*  font-weight: bold;*/
+/*  !*background: #d57787;*!*/
+/*  background: indianred;*/
+/*}*/
 
-button:hover {
-  transform: scale(1.1);
-}
+/*button:hover {*/
+/*  transform: scale(1.1);*/
+/*}*/
 
 svg {
   height: 30px;

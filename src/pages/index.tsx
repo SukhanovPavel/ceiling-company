@@ -4,6 +4,7 @@ import {Layout} from "@/components/Layout/Layout";
 import {BackgroundImage} from "@/components/BackgroundImage/BackgroundImage";
 
 import styles from "../styles/Home.module.css";
+import StretchCeilingPage from "@/components/StretchCeilingPage/StretchCeilingPage";
 
 const Home = () => (
     <div>
@@ -15,8 +16,9 @@ const Home = () => (
         <link rel="canonical"/>
         <meta name="yandex-verification" content="df035aa94bb5ac31" />
       </Head>
-      <Layout data={dataHome} />
-      <BackgroundImage alt="homePage" src="./potolok.jpg" />
+      {/*<Layout data={dataHome} />*/}
+      {/*<BackgroundImage alt="homePage" src="./potolok.jpg" />*/}
+      <StretchCeilingPage />
     </div>
 );
 
